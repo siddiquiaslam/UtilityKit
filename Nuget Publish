@@ -3,5 +3,5 @@ Nuget CLI commands
 # To build
 dotnet pack --configuration Release
 
-# To publish -- Replace [PATH_TO_NUPKG] with local path to Release\YOURPACKAGENAME and [YOUR_API_KEY] with Nuget API Key  
-dotnet nuget push [PATH_TO_NUPKG] --api-key [YOUR_API_KEY] --source [https://api.nuget.org/v3/index.json](https://api.nuget.org/v3/index.json)
+# To publish -- Replace [YOUR_API_KEY] with Nuget API Key  
+dotnet nuget push "bin/Release/UtilityKit.1.0.0.nupkg" --source https://api.nuget.org/v3/index.json --api-key [YOUR_API_KEY]
