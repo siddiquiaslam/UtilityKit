@@ -1,9 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <!-- Mandatory Identification -->
+    <PackageId>UtilityKit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>siddiquiaslam</Authors>
+    <Description>UtilityKit is a lightweight, extensible collection of helper classes and functions designed to simplify everyday development tasks. From date and time utilities to string manipulation and common data operations, UtilityKit provides a clean, reusable toolkit that saves you from rewriting boilerplate code again and again.</Description>
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- Source Code & Licensing (Crucial for Public Repos) -->
+    <RepositoryUrl>[https://github.com/siddiquiaslam/UtilityKit](https://github.com/siddiquiaslam/UtilityKit)</RepositoryUrl>
+    <PackageProjectUrl>[https://github.com/siddiquiaslam/UtilityKit](https://github.com/siddiquiaslam/UtilityKit)</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>License.md</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+
+    <!-- Source Link / Debugging Support (Best Practice) -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedAllSources>true</EmbedAllSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.xml</AllowedOutputExtensionsInPackageBuildOutputFolder>
+
+    <!-- Optional: Ensure documentation is built and included in the package -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="License.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
