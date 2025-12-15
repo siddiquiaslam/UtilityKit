@@ -9,6 +9,7 @@ publish/
 # Visual Studio
 .vs/
 *.suo
+*.slnx
 *.user
 *.userosscache
 *.sln.docstates
