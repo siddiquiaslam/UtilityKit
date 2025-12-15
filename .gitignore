@@ -1,0 +1,79 @@
+# .gitignore for a .NET 10 class library
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+**/packages/*
+
+# Dotnet tooling and caches
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+*.dotsettings
+.sdk/
+.dotnet/
+
+# Node / frontend (if present)
+node_modules/
+
+# Logs, temporary files
+*.log
+*.tmp
+*.temp
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.obj
+
+# Publish / deployment
+publish/
+app.publish/
+
+# User-specific files
+*.user
+*.rsuser
+*.classdiff
+*.coverage
+*.coveragexml
+
+# Generated files
+Generated\ Files/
+
+# JetBrains Rider caches
+*.idea/
+
+# Packaging
+*.zip
+
+# Ignore secrets / local settings
+secrets.json
+local.settings.json
+appsettings.*.json
+
+# OS files
+.DS_Store
+Thumbs.db
