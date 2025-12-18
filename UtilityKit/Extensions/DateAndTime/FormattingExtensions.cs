@@ -384,7 +384,7 @@ public static class FormattingExtensions
     /// A string representing the date with an ordinal suffix for the day of the month,
     /// e.g. "01st January 2026" or "1st January 2026".
     /// </returns>
-    public static string ToOrdinalDateString(this DateTime dateTime, bool twoDigitDateFormat = true)
+    public static string ToOrdinalDateString(this DateTime dateTime, bool twoDigitDateFormat)
     {
         int day = dateTime.Day;
         string suffix = day switch
@@ -434,47 +434,6 @@ public static class FormattingExtensions
         return $"{dateTime:dddd}, {dayFormatted} {dateTime:MMMM yyyy}";
     }
 
-    /// <summary>
-    /// Converts two <see cref="DateTime"/> values into a weekday + ordinal date range string.
-    /// Examples:
-    /// - "Monday, 15th December 2025 – Wednesday, 17th December 2025"
-    /// - "Thursday, 01st January 2026 – Friday, 02nd January 2026"
-    /// </summary>
-    /// <param name="startDate">
-    /// The starting <see cref="DateTime"/> of the range.
-    /// </param>
-    /// <param name="endDate">
-    /// The ending <see cref="DateTime"/> of the range.
-    /// </param>
-    /// <param name="twoDigitDateFormat">
-    /// If true (default), the day will be formatted with two digits (e.g., "01st").
-    /// If false, the day will be formatted without leading zeros (e.g., "1st").
-    /// </param>
-    /// <returns>
-    /// A string representing the weekday + ordinal date range.
-    /// </returns>
-    public static string ToOrdinalWeekdayDateRangeString(DateTime startDate, DateTime endDate, bool twoDigitDateFormat = true)
-    {
-        string FormatOrdinal(DateTime dt)
-        {
-            int day = dt.Day;
-            string suffix = day switch
-            {
-                1 or 21 or 31 => "st",
-                2 or 22 => "nd",
-                3 or 23 => "rd",
-                _ => "th"
-            };
-
-            string dayFormatted = twoDigitDateFormat
-                ? day.ToString("00") + suffix
-                : day + suffix;
-
-            return $"{dt:dddd}, {dayFormatted} {dt:MMMM yyyy}";
-        }
-
-        return $"{FormatOrdinal(startDate)} – {FormatOrdinal(endDate)}";
-    }
     /// <summary>
     /// Converts two <see cref="DateTime"/> values into a weekday + ordinal date range string.
     /// Examples:
