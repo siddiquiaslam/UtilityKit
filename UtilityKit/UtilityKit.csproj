@@ -6,7 +6,7 @@
 
     <!-- Mandatory Identification -->
     <PackageId>UtilityKit</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>siddiquiaslam</Authors>
     <Description>UtilityKit is a lightweight, extensible collection of helper classes and functions designed to simplify everyday development tasks. From date and time utilities to string manipulation and common data operations, UtilityKit provides a clean, reusable toolkit that saves you from rewriting boilerplate code again and again.</Description>
     <TargetFramework>net10.0</TargetFramework>
