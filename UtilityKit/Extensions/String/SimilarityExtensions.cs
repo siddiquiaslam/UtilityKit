@@ -3,6 +3,13 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Similarity and distance algorithms for strings.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var d = "kitten".LevenshteinDistance("sitting");
+    /// var score = "hello".SimilarityScore("hallo");
+    /// </code>
+    /// </remarks>
     public static class SimilarityExtensions
     {
         /// <summary>

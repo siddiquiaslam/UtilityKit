@@ -3,6 +3,14 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Collection and templating helpers for strings.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var first = "line1\nline2".FirstLine();
+    /// var words = "Hello, world!".GetWords();
+    /// var tpl = "Hello {name}".Interpolate(new Dictionary<string,string>{{"name","Joe"}});
+    /// </code>
+    /// </remarks>
     public static class CollectionExtensions
     {
         /// <summary>

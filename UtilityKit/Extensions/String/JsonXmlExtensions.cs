@@ -6,6 +6,14 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// JSON/XML helper extension methods.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var isJson = "{\"a\":1}".IsJson();
+    /// var pretty = "{\"a\":1}".PrettyPrintJson();
+    /// var isXml = "<root/>".IsXml();
+    /// </code>
+    /// </remarks>
     public static class JsonXmlExtensions
     {
         /// <summary>

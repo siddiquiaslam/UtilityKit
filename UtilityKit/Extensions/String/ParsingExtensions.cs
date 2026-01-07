@@ -3,6 +3,17 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Parsing and conversion string extension methods.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var i = "123".ParseIntOrDefault(); // 123
+    /// var bad = "abc".ParseIntOrDefault(-1); // -1
+    /// if ("2025-12-15".TryParseDateTime(out var dt)) Console.WriteLine(dt);
+    /// var unix = "2025-12-15".ToUnixTimestamp();
+    /// Guid.TryToGuid("...", out var g);
+    /// var uri = "https://example.com".ToUri();
+    /// </code>
+    /// </remarks>
     public static class ParsingExtensions
     {
         /// <summary>

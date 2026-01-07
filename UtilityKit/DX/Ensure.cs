@@ -238,6 +238,13 @@ public static class Ensure
     /// <param name="value">The value to validate.</param>
     /// <param name="paramName">Automatically inferred parameter name.</param>
     /// <returns>An <see cref="EnsureBuilder{T}"/> for chaining validations.</returns>
+    /// <summary>
+    /// Starts a fluent validation chain for the given value.
+    /// </summary>
+    /// <typeparam name="T">The type of the value being validated.</typeparam>
+    /// <param name="value">The value to validate.</param>
+    /// <param name="paramName">Automatically inferred parameter name.</param>
+    /// <returns>An <see cref="EnsureBuilder{T}"/> for chaining validations.</returns>
     public static EnsureBuilder<T> That<T>(
         T value,
         [CallerArgumentExpression("value")] string paramName = ""
