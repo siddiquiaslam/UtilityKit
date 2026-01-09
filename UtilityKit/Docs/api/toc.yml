@@ -7,9 +7,6 @@ items:
   - uid: UtilityKit.Crypto.AesEncryptionService
     name: AesEncryptionService
     type: Class
-  - uid: UtilityKit.Crypto.IEncryptionService
-    name: IEncryptionService
-    type: Interface
 - uid: UtilityKit.DX
   name: UtilityKit.DX
   type: Namespace

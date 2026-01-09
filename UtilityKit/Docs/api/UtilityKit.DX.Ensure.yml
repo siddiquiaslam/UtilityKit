@@ -16,7 +16,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Ensure
     path: ../DX/Ensure.cs
@@ -51,7 +51,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: That
     path: ../DX/Ensure.cs

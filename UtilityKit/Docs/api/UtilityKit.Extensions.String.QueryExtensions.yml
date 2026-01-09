@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: QueryExtensions
     path: ../Extensions/String/QueryExtensions.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: AppendQueryParameter
     path: ../Extensions/String/QueryExtensions.cs
@@ -107,7 +107,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: RemoveQueryParameter
     path: ../Extensions/String/QueryExtensions.cs
@@ -146,7 +146,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: GetQueryParameter
     path: ../Extensions/String/QueryExtensions.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: GetMimeTypeFromDataUri
     path: ../Extensions/String/QueryExtensions.cs
@@ -222,7 +222,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/QueryExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: HumanizeByteSize
     path: ../Extensions/String/QueryExtensions.cs

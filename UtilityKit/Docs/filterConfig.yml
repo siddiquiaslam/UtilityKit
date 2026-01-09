@@ -1,0 +1,4 @@
+### YamlMime:ManagedReference
+apiRules:
+  - exclude:
+      uidRegex: ^UtilityKit.Crypto\.IEncryptionService$

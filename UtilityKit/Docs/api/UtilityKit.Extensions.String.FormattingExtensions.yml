@@ -30,7 +30,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: FormattingExtensions
     path: ../Extensions/String/FormattingExtensions.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToTitleCase
     path: ../Extensions/String/FormattingExtensions.cs
@@ -117,7 +117,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToSlug
     path: ../Extensions/String/FormattingExtensions.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: TrimToNull
     path: ../Extensions/String/FormattingExtensions.cs
@@ -193,7 +193,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: EnsureEndsWith
     path: ../Extensions/String/FormattingExtensions.cs
@@ -234,7 +234,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: EnsureStartsWith
     path: ../Extensions/String/FormattingExtensions.cs
@@ -275,7 +275,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Truncate
     path: ../Extensions/String/FormattingExtensions.cs
@@ -316,7 +316,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Left
     path: ../Extensions/String/FormattingExtensions.cs
@@ -355,7 +355,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Right
     path: ../Extensions/String/FormattingExtensions.cs
@@ -394,7 +394,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Reverse
     path: ../Extensions/String/FormattingExtensions.cs
@@ -431,7 +431,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToNormalized
     path: ../Extensions/String/FormattingExtensions.cs
@@ -470,7 +470,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: RemoveDiacritics
     path: ../Extensions/String/FormattingExtensions.cs
@@ -507,7 +507,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: SafeFileName
     path: ../Extensions/String/FormattingExtensions.cs
@@ -546,7 +546,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Mask
     path: ../Extensions/String/FormattingExtensions.cs
@@ -589,7 +589,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: NormalizeWhitespace
     path: ../Extensions/String/FormattingExtensions.cs
@@ -626,7 +626,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: RemoveWhitespace
     path: ../Extensions/String/FormattingExtensions.cs

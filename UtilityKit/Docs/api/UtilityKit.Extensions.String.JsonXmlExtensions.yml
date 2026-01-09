@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/JsonXmlExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: JsonXmlExtensions
     path: ../Extensions/String/JsonXmlExtensions.cs
@@ -65,7 +65,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/JsonXmlExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsJson
     path: ../Extensions/String/JsonXmlExtensions.cs
@@ -102,7 +102,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/JsonXmlExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: PrettyPrintJson
     path: ../Extensions/String/JsonXmlExtensions.cs
@@ -139,7 +139,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/JsonXmlExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsXml
     path: ../Extensions/String/JsonXmlExtensions.cs
@@ -176,7 +176,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/JsonXmlExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: PrettyPrintXml
     path: ../Extensions/String/JsonXmlExtensions.cs

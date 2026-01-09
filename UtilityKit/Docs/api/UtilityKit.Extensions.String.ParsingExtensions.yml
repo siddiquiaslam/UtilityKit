@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ParsingExtensions
     path: ../Extensions/String/ParsingExtensions.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ParseIntOrDefault
     path: ../Extensions/String/ParsingExtensions.cs
@@ -113,7 +113,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ParseLongOrDefault
     path: ../Extensions/String/ParsingExtensions.cs
@@ -152,7 +152,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ParseDecimalOrDefault
     path: ../Extensions/String/ParsingExtensions.cs
@@ -193,7 +193,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: TryParseDateTime
     path: ../Extensions/String/ParsingExtensions.cs
@@ -236,7 +236,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToUnixTimestamp
     path: ../Extensions/String/ParsingExtensions.cs
@@ -277,7 +277,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: TryToGuid
     path: ../Extensions/String/ParsingExtensions.cs
@@ -316,7 +316,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ParsingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToUri
     path: ../Extensions/String/ParsingExtensions.cs

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: EnsureResult
     path: ../DX/Ensure.cs
@@ -58,7 +58,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsValid
     path: ../DX/Ensure.cs
@@ -89,7 +89,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Message
     path: ../DX/Ensure.cs
@@ -120,7 +120,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: .ctor
     path: ../DX/Ensure.cs
@@ -158,7 +158,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Success
     path: ../DX/Ensure.cs
@@ -189,7 +189,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Fail
     path: ../DX/Ensure.cs

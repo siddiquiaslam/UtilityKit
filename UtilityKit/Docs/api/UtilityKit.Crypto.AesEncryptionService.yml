@@ -18,7 +18,7 @@ items:
   source:
     remote:
       path: UtilityKit/Crypto/AesEncryptionService .cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: AesEncryptionService
     path: ../Crypto/AesEncryptionService .cs
@@ -38,12 +38,10 @@ items:
     DI usage snippets.
   example: []
   syntax:
-    content: 'public class AesEncryptionService : IEncryptionService'
-    content.vb: Public Class AesEncryptionService Implements IEncryptionService
+    content: public class AesEncryptionService
+    content.vb: Public Class AesEncryptionService
   inheritance:
   - System.Object
-  implements:
-  - UtilityKit.Crypto.IEncryptionService
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -66,7 +64,7 @@ items:
   source:
     remote:
       path: UtilityKit/Crypto/AesEncryptionService .cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: .ctor
     path: ../Crypto/AesEncryptionService .cs
@@ -104,7 +102,7 @@ items:
   source:
     remote:
       path: UtilityKit/Crypto/AesEncryptionService .cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Encrypt
     path: ../Crypto/AesEncryptionService .cs
@@ -158,8 +156,6 @@ items:
         <code>iv</code> used for the encryption operation.
     content.vb: Public Function Encrypt(plainText As String) As (cipherText As Byte(), iv As Byte())
   overload: UtilityKit.Crypto.AesEncryptionService.Encrypt*
-  implements:
-  - UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
   nameWithType.vb: AesEncryptionService.Encrypt(String)
   fullName.vb: UtilityKit.Crypto.AesEncryptionService.Encrypt(String)
   name.vb: Encrypt(String)
@@ -177,7 +173,7 @@ items:
   source:
     remote:
       path: UtilityKit/Crypto/AesEncryptionService .cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Decrypt
     path: ../Crypto/AesEncryptionService .cs
@@ -229,16 +225,12 @@ items:
       description: The decrypted plain text.
     content.vb: Public Function Decrypt(cipherText As Byte(), iv As Byte()) As String
   overload: UtilityKit.Crypto.AesEncryptionService.Decrypt*
-  implements:
-  - UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
   nameWithType.vb: AesEncryptionService.Decrypt(Byte(), Byte())
   fullName.vb: UtilityKit.Crypto.AesEncryptionService.Decrypt(Byte(), Byte())
   name.vb: Decrypt(Byte(), Byte())
 references:
 - uid: UtilityKit.Crypto.IEncryptionService
   commentId: T:UtilityKit.Crypto.IEncryptionService
-  parent: UtilityKit.Crypto
-  href: UtilityKit.Crypto.IEncryptionService.html
   name: IEncryptionService
   nameWithType: IEncryptionService
   fullName: UtilityKit.Crypto.IEncryptionService
@@ -545,37 +537,6 @@ references:
   name: Encrypt
   nameWithType: AesEncryptionService.Encrypt
   fullName: UtilityKit.Crypto.AesEncryptionService.Encrypt
-- uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
-  commentId: M:UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
-  parent: UtilityKit.Crypto.IEncryptionService
-  isExternal: true
-  href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
-  name: Encrypt(string)
-  nameWithType: IEncryptionService.Encrypt(string)
-  fullName: UtilityKit.Crypto.IEncryptionService.Encrypt(string)
-  nameWithType.vb: IEncryptionService.Encrypt(String)
-  fullName.vb: UtilityKit.Crypto.IEncryptionService.Encrypt(String)
-  name.vb: Encrypt(String)
-  spec.csharp:
-  - uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
-    name: Encrypt
-    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
-    name: Encrypt
-    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -677,54 +638,3 @@ references:
   name: Decrypt
   nameWithType: AesEncryptionService.Decrypt
   fullName: UtilityKit.Crypto.AesEncryptionService.Decrypt
-- uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
-  commentId: M:UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
-  parent: UtilityKit.Crypto.IEncryptionService
-  isExternal: true
-  href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
-  name: Decrypt(byte[], byte[])
-  nameWithType: IEncryptionService.Decrypt(byte[], byte[])
-  fullName: UtilityKit.Crypto.IEncryptionService.Decrypt(byte[], byte[])
-  nameWithType.vb: IEncryptionService.Decrypt(Byte(), Byte())
-  fullName.vb: UtilityKit.Crypto.IEncryptionService.Decrypt(Byte(), Byte())
-  name.vb: Decrypt(Byte(), Byte())
-  spec.csharp:
-  - uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
-    name: Decrypt
-    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
-    name: Decrypt
-    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: )

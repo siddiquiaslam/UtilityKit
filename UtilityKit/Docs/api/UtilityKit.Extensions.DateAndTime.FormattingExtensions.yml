@@ -36,7 +36,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: FormattingExtensions
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -78,7 +78,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToRelativeTime
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToIso8601String
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -167,7 +167,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToUnixTimestamp
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -206,7 +206,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: FromUnixTimestamp
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -245,7 +245,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToFriendlyDateString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -284,7 +284,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToFriendlyTimeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -323,7 +323,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToFriendlyDateTimeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -365,7 +365,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToRelativeDayString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -407,7 +407,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToRelativeWeekString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -449,7 +449,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToQuarterString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -491,7 +491,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToMonthNameString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -533,7 +533,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToRelativeMonthString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -575,7 +575,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToRelativeYearString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -616,7 +616,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToFriendlyDateRangeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -664,7 +664,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToFriendlyTimeRangeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -713,7 +713,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToOrdinalDateString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -755,7 +755,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToOrdinalDateString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -806,7 +806,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToOrdinalWeekdayDateString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -853,7 +853,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToOrdinalWeekdayDateRangeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -907,7 +907,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToCompactOrdinalDateTimeRangeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs
@@ -961,7 +961,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ToSuperCompactOrdinalDateTimeRangeString
     path: ../Extensions/DateAndTime/FormattingExtensions.cs

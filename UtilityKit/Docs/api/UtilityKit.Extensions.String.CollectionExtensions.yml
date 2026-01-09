@@ -21,7 +21,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: CollectionExtensions
     path: ../Extensions/String/CollectionExtensions.cs
@@ -57,7 +57,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: OrDefault
     path: ../Extensions/String/CollectionExtensions.cs
@@ -96,7 +96,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: SplitLines
     path: ../Extensions/String/CollectionExtensions.cs
@@ -133,7 +133,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: FirstLine
     path: ../Extensions/String/CollectionExtensions.cs
@@ -170,7 +170,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: LastLine
     path: ../Extensions/String/CollectionExtensions.cs
@@ -207,7 +207,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: GetWords
     path: ../Extensions/String/CollectionExtensions.cs
@@ -246,7 +246,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/CollectionExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Interpolate
     path: ../Extensions/String/CollectionExtensions.cs

@@ -22,7 +22,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: ValidationExtensions
     path: ../Extensions/String/ValidationExtensions.cs
@@ -70,7 +70,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsValidEmail
     path: ../Extensions/String/ValidationExtensions.cs
@@ -110,7 +110,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsValidUrl
     path: ../Extensions/String/ValidationExtensions.cs
@@ -147,7 +147,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsDigitsOnly
     path: ../Extensions/String/ValidationExtensions.cs
@@ -184,7 +184,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsAlpha
     path: ../Extensions/String/ValidationExtensions.cs
@@ -221,7 +221,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsAlphaNumeric
     path: ../Extensions/String/ValidationExtensions.cs
@@ -258,7 +258,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsValidUuid
     path: ../Extensions/String/ValidationExtensions.cs
@@ -295,7 +295,7 @@ items:
   source:
     remote:
       path: UtilityKit/Extensions/String/ValidationExtensions.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: IsPalindrome
     path: ../Extensions/String/ValidationExtensions.cs

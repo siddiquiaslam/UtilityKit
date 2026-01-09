@@ -23,7 +23,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: EnsureBuilder
     path: ../DX/Ensure.cs
@@ -66,7 +66,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: .ctor
     path: ../DX/Ensure.cs
@@ -100,7 +100,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: NotNull
     path: ../DX/Ensure.cs
@@ -140,7 +140,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: NotEmpty
     path: ../DX/Ensure.cs
@@ -180,7 +180,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: InRange
     path: ../DX/Ensure.cs
@@ -224,7 +224,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Any
     path: ../DX/Ensure.cs
@@ -264,7 +264,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Satisfies
     path: ../DX/Ensure.cs
@@ -300,7 +300,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: "True"
     path: ../DX/Ensure.cs
@@ -342,7 +342,7 @@ items:
   source:
     remote:
       path: UtilityKit/DX/Ensure.cs
-      branch: AddAPIDoc
+      branch: dev
       repo: https://github.com/siddiquiaslam/UtilityKit.git
     id: Result
     path: ../DX/Ensure.cs

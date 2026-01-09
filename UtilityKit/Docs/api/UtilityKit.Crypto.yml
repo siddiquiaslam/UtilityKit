@@ -5,7 +5,6 @@ items:
   id: UtilityKit.Crypto
   children:
   - UtilityKit.Crypto.AesEncryptionService
-  - UtilityKit.Crypto.IEncryptionService
   langs:
   - csharp
   - vb
@@ -16,38 +15,9 @@ items:
   assemblies:
   - UtilityKit
 references:
-- uid: UtilityKit.Crypto.IEncryptionService
-  commentId: T:UtilityKit.Crypto.IEncryptionService
-  parent: UtilityKit.Crypto
-  href: UtilityKit.Crypto.IEncryptionService.html
-  name: IEncryptionService
-  nameWithType: IEncryptionService
-  fullName: UtilityKit.Crypto.IEncryptionService
 - uid: UtilityKit.Crypto.AesEncryptionService
   commentId: T:UtilityKit.Crypto.AesEncryptionService
   href: UtilityKit.Crypto.AesEncryptionService.html
   name: AesEncryptionService
   nameWithType: AesEncryptionService
   fullName: UtilityKit.Crypto.AesEncryptionService
-- uid: UtilityKit.Crypto
-  commentId: N:UtilityKit.Crypto
-  href: UtilityKit.html
-  name: UtilityKit.Crypto
-  nameWithType: UtilityKit.Crypto
-  fullName: UtilityKit.Crypto
-  spec.csharp:
-  - uid: UtilityKit
-    name: UtilityKit
-    href: UtilityKit.html
-  - name: .
-  - uid: UtilityKit.Crypto
-    name: Crypto
-    href: UtilityKit.Crypto.html
-  spec.vb:
-  - uid: UtilityKit
-    name: UtilityKit
-    href: UtilityKit.html
-  - name: .
-  - uid: UtilityKit.Crypto
-    name: Crypto
-    href: UtilityKit.Crypto.html
