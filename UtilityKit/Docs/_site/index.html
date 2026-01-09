@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>UtilityKit | UtilityKit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="UtilityKit | UtilityKit ">
+      
+      <meta name="description" content="UtilityKit — a small, composable collection of C# helper classes and extension methods to reduce boilerplate and simplify everyday development tasks.">
+      <link rel="icon" href="images/fav.png">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/siddiquiaslam/UtilityKit/blob/AddAPIDoc/UtilityKit/Docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.png" alt="UtilityKit">
+            UtilityKit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="index">
+<h1 id="utilitykit">UtilityKit</h1>
+
+<p>UtilityKit is a lightweight, extensible collection of helper classes and extension methods for .NET (C#). It provides focused utilities for common tasks such as date/time handling, string and collection helpers, argument guards, serialization helpers, and other repeatable patterns so you can write clearer, smaller code without reimplementing the same small utilities.</p>
+<p>Use this documentation site to learn how to install and use UtilityKit, read conceptual guides and recipes, and browse the generated API reference.</p>
+<h2 id="quick-install">Quick install</h2>
+<p>Install the latest stable package from NuGet:</p>
+<pre><code class="lang-bash">dotnet add package UtilityKit
+</code></pre>
+<p>Or add a PackageReference:</p>
+<pre><code class="lang-xml">&lt;PackageReference Include=&quot;UtilityKit&quot; Version=&quot;x.y.z&quot; /&gt;
+</code></pre>
+<p>Replace <code>x.y.z</code> with the specific version you want to use.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Small, composable helpers that follow .NET conventions</li>
+<li>Extension methods for common types to keep call sites expressive</li>
+<li>Guard and validation helpers to reduce repetitive argument checks</li>
+<li>Serialization and JSON convenience wrappers</li>
+<li>Collection and LINQ-style helpers like <code>DistinctBy</code>, paging helpers, etc.</li>
+<li>Minimal dependencies — designed to be easy to adopt</li>
+</ul>
+<h2 id="get-started">Get started</h2>
+<ul>
+<li>Read the <a href="introduction.md">Introduction</a> for an overview and goals.</li>
+<li>Follow the <a href="getting-started.md">Getting Started</a> guide for installation, quick examples, and building from source.</li>
+<li>Browse the API reference (generated by DocFX) for full type and member documentation.</li>
+</ul>
+<h2 id="typical-usage">Typical usage</h2>
+<p>A few example snippets showing common patterns:</p>
+<pre><code class="lang-csharp">using UtilityKit;
+
+// Trim or normalize strings
+var name = StringHelpers.TrimOrNull(&quot;  Alice  &quot;); // &quot;Alice&quot;
+
+// Guard helpers
+Guard.NotNull(user, nameof(user));
+
+// Collection helpers
+var unique = users.DistinctBy(u =&gt; u.Email).ToList();
+
+// Serialization
+var json = JsonHelpers.Serialize(user);
+var user2 = JsonHelpers.Deserialize&lt;User&gt;(json);
+</code></pre>
+<p>See the API reference for exact type and member names for the version you use.</p>
+<h2 id="building-the-docs-locally">Building the docs locally</h2>
+<p>To build the DocFX site locally:</p>
+<pre><code class="lang-bash"># from repository root
+docfx build
+docfx serve _site
+</code></pre>
+<p>Open the local URL shown by docfx (typically http://localhost:8080) to preview the site.</p>
+<h2 id="support--license">Support &amp; license</h2>
+<p>UtilityKit is provided under the license included in this repository. For issues and feature requests, open an issue in the repository's issue tracker.</p>
+<h2 id="where-to-go-next">Where to go next</h2>
+<ul>
+<li>Introduction — <a href="docs/introduction.html">introduction.md</a></li>
+<li>Getting started — <a href="docs/getting-started.html">getting-started.md</a></li>
+<li>API Reference — link available in the site navigation after DocFX runs</li>
+</ul>
+<p>If something in the docs is missing or unclear, please open an issue or submit a pull request with improvements. Thank you for using UtilityKit!</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

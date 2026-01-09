@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction | UtilityKit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction | UtilityKit ">
+      
+      <meta name="description" content="UtilityKit is a lightweight, extensible collection of helper classes and functions designed to simplify everyday development tasks in .NET (C#). This page introduces the library, shows how to get started, and points to important resources.">
+      <link rel="icon" href="../images/fav.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/siddiquiaslam/UtilityKit/blob/AddAPIDoc/UtilityKit/Docs/docs/introduction.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="UtilityKit">
+            UtilityKit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="introduction">
+<h1 id="introduction">Introduction</h1>
+
+<p>UtilityKit is a lightweight, extensible collection of helper classes and extension methods created to simplify common development tasks in .NET applications. It provides small, focused utilities for date/time handling, string manipulation, collections, I/O, serialization, validation, and other recurring patterns so you don't have to rewrite boilerplate logic.</p>
+<p>This documentation site contains conceptual articles and full reference API documentation generated with DocFX. Use the navigation at the left (or the table of contents) to explore conceptual guides, examples, and detailed type/method reference pages.</p>
+<h2 id="goals">Goals</h2>
+<ul>
+<li>Reduce boilerplate for common tasks (formatting, parsing, validation, etc.)</li>
+<li>Provide clear, well-tested utility APIs that are easy to discover and use</li>
+<li>Be small and composable so you can take only what you need</li>
+<li>Follow .NET conventions (extension methods, clear naming, immutable-friendly where appropriate)</li>
+</ul>
+<h2 id="who-should-use-utilitykit">Who should use UtilityKit</h2>
+<ul>
+<li>Application developers who want small, reliable helpers instead of writing small utilities repeatedly</li>
+<li>Library authors who prefer composable, well-named helper APIs</li>
+<li>Teams looking to centralize common helpers into a shared dependency</li>
+</ul>
+<h2 id="whats-included-high-level">What's included (high level)</h2>
+<ul>
+<li>Date/time helpers and extension methods (parsing, formatting, time zone helpers)</li>
+<li>String utilities (safe trimming, null/empty handling, formatting helpers)</li>
+<li>Collection extensions (safe enumerations, paging helpers, deduplication)</li>
+<li>Guard and validation helpers (argument validation helpers to reduce guard clauses)</li>
+<li>I/O and file helpers (path helpers, temp file helpers)</li>
+<li>JSON and serialization helpers (convenience wrappers around System.Text.Json or Newtonsoft.Json)</li>
+<li>Convenience wrappers and extension methods to make common code more readable</li>
+</ul>
+<p>See the API reference for a complete, up-to-date list of types, methods, and samples.</p>
+<h2 id="quickstart">Quickstart</h2>
+<p>Install the package from NuGet (replace with the exact package id if necessary):</p>
+<p>dotnet CLI</p>
+<pre><code class="lang-bash">dotnet add package UtilityKit
+</code></pre>
+<p>PackageReference</p>
+<pre><code class="lang-xml">&lt;PackageReference Include=&quot;UtilityKit&quot; Version=&quot;x.y.z&quot; /&gt;
+</code></pre>
+<p>Then reference it in your code:</p>
+<pre><code class="lang-csharp">using UtilityKit;
+
+// Example: safe string trimming
+var name = StringHelpers.TrimOrNull(someInput);
+
+// Example: collection helper
+var distinct = items.DistinctBy(x =&gt; x.Id);
+
+// Example: guard
+Guard.NotNull(user, nameof(user));
+</code></pre>
+<p>Note: The examples above show typical patterns. Refer to the API reference for exact type and method names.</p>
+<h2 id="examples">Examples</h2>
+<p>A simple example that demonstrates a couple of common patterns:</p>
+<pre><code class="lang-csharp">using UtilityKit;
+
+public class Example
+{
+    public void Run()
+    {
+        // Safe parsing / formatting
+        var ts = DateTime.Now.ToUtcIsoString(); // -&gt; &quot;2026-01-09T12:34:56Z&quot;
+
+        // Guard helpers reduce boilerplate checks
+        Guard.NotNull(input, nameof(input));
+
+        // Collection extensions
+        var unique = users.DistinctBy(u =&gt; u.Email).ToList();
+
+        // Serialization convenience
+        var json = JsonHelpers.Serialize(user);
+        var deserialized = JsonHelpers.Deserialize&lt;User&gt;(json);
+    }
+}
+</code></pre>
+<p>Again, see the reference for exact member names and overloads.</p>
+<h2 id="documentation-structure">Documentation structure</h2>
+<ul>
+<li>Conceptual articles (this introduction, getting started, contributing, design notes)</li>
+<li>How-to guides and Recipes (common tasks with copy-pasteable snippets)</li>
+<li>API Reference (per-type, per-member documentation generated from XML comments)</li>
+</ul>
+<h2 id="building-the-docs-locally">Building the docs locally</h2>
+<p>If you want to build the DocFX site locally:</p>
+<ol>
+<li>Install docfx (see the official DocFX docs for the latest instructions).</li>
+<li>From the repository root run:</li>
+</ol>
+<pre><code class="lang-bash">docfx build
+docfx serve _site
+</code></pre>
+<ol start="3">
+<li>Open the local server URL shown by docfx (usually http://localhost:8080).</li>
+</ol>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions will open soon.</p>
+<h2 id="license--support">License &amp; Support</h2>
+<p>UtilityKit is distributed under the license in the repository (see LICENSE file). For issues, feature requests, or questions, open an issue in the repository issue tracker.</p>
+<h2 id="where-to-go-next">Where to go next</h2>
+<ul>
+<li>API reference: (link to the generated API reference section)</li>
+<li>Recipes: (link to the recipes/how-to section)</li>
+<li>Contributing guidelines: (link to CONTRIBUTING.md)</li>
+</ul>
+<p>This site is generated with DocFX. If you find missing documentation or unclear examples, please contribute or open an issue so we can improve it.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

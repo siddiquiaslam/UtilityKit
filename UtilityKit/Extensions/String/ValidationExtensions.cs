@@ -5,6 +5,15 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Validation-related string extension methods.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var ok = "user@example.com".IsValidEmail();
+    /// var url = "https://example.com".IsValidUrl();
+    /// var digits = "12345".IsDigitsOnly();
+    /// var pal = "A man, a plan, a canal, Panama".IsPalindrome();
+    /// </code>
+    /// </remarks>
     public static class ValidationExtensions
     {
         /// <summary>

@@ -3,6 +3,14 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// URL/query and related helpers.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var u = "https://example.com/page".AppendQueryParameter("q","test");
+    /// var v = "https://example.com?page=1".RemoveQueryParameter("page");
+    /// var mime = "data:image/png;base64,AAA".GetMimeTypeFromDataUri();
+    /// </code>
+    /// </remarks>
     public static class QueryExtensions
     {
         /// <summary>

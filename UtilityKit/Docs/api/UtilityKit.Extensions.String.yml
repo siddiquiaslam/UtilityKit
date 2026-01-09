@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.Extensions.String
+  commentId: N:UtilityKit.Extensions.String
+  id: UtilityKit.Extensions.String
+  children:
+  - UtilityKit.Extensions.String.CollectionExtensions
+  - UtilityKit.Extensions.String.EncodingExtensions
+  - UtilityKit.Extensions.String.FormattingExtensions
+  - UtilityKit.Extensions.String.JsonXmlExtensions
+  - UtilityKit.Extensions.String.ParsingExtensions
+  - UtilityKit.Extensions.String.QueryExtensions
+  - UtilityKit.Extensions.String.SimilarityExtensions
+  - UtilityKit.Extensions.String.ValidationExtensions
+  langs:
+  - csharp
+  - vb
+  name: UtilityKit.Extensions.String
+  nameWithType: UtilityKit.Extensions.String
+  fullName: UtilityKit.Extensions.String
+  type: Namespace
+  assemblies:
+  - UtilityKit
+references:
+- uid: UtilityKit.Extensions.String.CollectionExtensions
+  commentId: T:UtilityKit.Extensions.String.CollectionExtensions
+  href: UtilityKit.Extensions.String.CollectionExtensions.html
+  name: CollectionExtensions
+  nameWithType: CollectionExtensions
+  fullName: UtilityKit.Extensions.String.CollectionExtensions
+- uid: UtilityKit.Extensions.String.EncodingExtensions
+  commentId: T:UtilityKit.Extensions.String.EncodingExtensions
+  href: UtilityKit.Extensions.String.EncodingExtensions.html
+  name: EncodingExtensions
+  nameWithType: EncodingExtensions
+  fullName: UtilityKit.Extensions.String.EncodingExtensions
+- uid: UtilityKit.Extensions.String.FormattingExtensions
+  commentId: T:UtilityKit.Extensions.String.FormattingExtensions
+  href: UtilityKit.Extensions.String.FormattingExtensions.html
+  name: FormattingExtensions
+  nameWithType: FormattingExtensions
+  fullName: UtilityKit.Extensions.String.FormattingExtensions
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions
+  commentId: T:UtilityKit.Extensions.String.JsonXmlExtensions
+  href: UtilityKit.Extensions.String.JsonXmlExtensions.html
+  name: JsonXmlExtensions
+  nameWithType: JsonXmlExtensions
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions
+- uid: UtilityKit.Extensions.String.ParsingExtensions
+  commentId: T:UtilityKit.Extensions.String.ParsingExtensions
+  href: UtilityKit.Extensions.String.ParsingExtensions.html
+  name: ParsingExtensions
+  nameWithType: ParsingExtensions
+  fullName: UtilityKit.Extensions.String.ParsingExtensions
+- uid: UtilityKit.Extensions.String.QueryExtensions
+  commentId: T:UtilityKit.Extensions.String.QueryExtensions
+  href: UtilityKit.Extensions.String.QueryExtensions.html
+  name: QueryExtensions
+  nameWithType: QueryExtensions
+  fullName: UtilityKit.Extensions.String.QueryExtensions
+- uid: UtilityKit.Extensions.String.SimilarityExtensions
+  commentId: T:UtilityKit.Extensions.String.SimilarityExtensions
+  href: UtilityKit.Extensions.String.SimilarityExtensions.html
+  name: SimilarityExtensions
+  nameWithType: SimilarityExtensions
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions
+- uid: UtilityKit.Extensions.String.ValidationExtensions
+  commentId: T:UtilityKit.Extensions.String.ValidationExtensions
+  href: UtilityKit.Extensions.String.ValidationExtensions.html
+  name: ValidationExtensions
+  nameWithType: ValidationExtensions
+  fullName: UtilityKit.Extensions.String.ValidationExtensions

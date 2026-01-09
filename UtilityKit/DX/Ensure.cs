@@ -238,6 +238,23 @@ public static class Ensure
     /// <param name="value">The value to validate.</param>
     /// <param name="paramName">Automatically inferred parameter name.</param>
     /// <returns>An <see cref="EnsureBuilder{T}"/> for chaining validations.</returns>
+    /// <example>
+    /// <code language="csharp">
+    /// // Simple null check
+    /// var result = Ensure.That(customer).NotNull().Result;
+    /// if (!result.IsValid) Console.WriteLine(result.Message);
+    ///
+    /// // Chained checks
+    /// var r2 = Ensure.That(orderId)
+    ///     .NotNull()
+    ///     .NotEmpty("Order id required")
+    ///     .Result;
+    ///
+    /// // Using a custom predicate
+    /// var r3 = Ensure.That(age).InRange(18, 65).Result;
+    /// if (!r3.IsValid) Console.WriteLine(r3.Message);
+    /// </code>
+    /// </example>
     public static EnsureBuilder<T> That<T>(
         T value,
         [CallerArgumentExpression("value")] string paramName = ""

@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.DX
+  commentId: N:UtilityKit.DX
+  id: UtilityKit.DX
+  children:
+  - UtilityKit.DX.Ensure
+  - UtilityKit.DX.EnsureBuilder`1
+  - UtilityKit.DX.EnsureResult
+  langs:
+  - csharp
+  - vb
+  name: UtilityKit.DX
+  nameWithType: UtilityKit.DX
+  fullName: UtilityKit.DX
+  type: Namespace
+  assemblies:
+  - UtilityKit
+references:
+- uid: UtilityKit.DX.EnsureResult
+  commentId: T:UtilityKit.DX.EnsureResult
+  parent: UtilityKit.DX
+  href: UtilityKit.DX.EnsureResult.html
+  name: EnsureResult
+  nameWithType: EnsureResult
+  fullName: UtilityKit.DX.EnsureResult
+- uid: UtilityKit.DX.EnsureBuilder`1
+  commentId: T:UtilityKit.DX.EnsureBuilder`1
+  parent: UtilityKit.DX
+  href: UtilityKit.DX.EnsureBuilder-1.html
+  name: EnsureBuilder<T>
+  nameWithType: EnsureBuilder<T>
+  fullName: UtilityKit.DX.EnsureBuilder<T>
+  nameWithType.vb: EnsureBuilder(Of T)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T)
+  name.vb: EnsureBuilder(Of T)
+  spec.csharp:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UtilityKit.DX.Ensure
+  commentId: T:UtilityKit.DX.Ensure
+  href: UtilityKit.DX.Ensure.html
+  name: Ensure
+  nameWithType: Ensure
+  fullName: UtilityKit.DX.Ensure
+- uid: UtilityKit.DX
+  commentId: N:UtilityKit.DX
+  href: UtilityKit.html
+  name: UtilityKit.DX
+  nameWithType: UtilityKit.DX
+  fullName: UtilityKit.DX
+  spec.csharp:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.DX
+    name: DX
+    href: UtilityKit.DX.html
+  spec.vb:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.DX
+    name: DX
+    href: UtilityKit.DX.html

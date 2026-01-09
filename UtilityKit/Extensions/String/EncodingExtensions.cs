@@ -3,6 +3,14 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Encoding/decoding string extension methods.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var b = "Hello".ToBase64();
+    /// var t = b.FromBase64();
+    /// var hx = "abc".ToHex();
+    /// </code>
+    /// </remarks>
     public static class EncodingExtensions
     {
         /// <summary>

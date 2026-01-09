@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.Crypto.AesEncryptionService
+  commentId: T:UtilityKit.Crypto.AesEncryptionService
+  id: AesEncryptionService
+  parent: UtilityKit.Crypto
+  children:
+  - UtilityKit.Crypto.AesEncryptionService.#ctor(System.Byte[])
+  - UtilityKit.Crypto.AesEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  - UtilityKit.Crypto.AesEncryptionService.Encrypt(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AesEncryptionService
+  nameWithType: AesEncryptionService
+  fullName: UtilityKit.Crypto.AesEncryptionService
+  type: Class
+  source:
+    remote:
+      path: UtilityKit/Crypto/AesEncryptionService .cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: AesEncryptionService
+    path: ../Crypto/AesEncryptionService .cs
+    startLine: 43
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Crypto
+  summary: >-
+    AES-based implementation of <xref href="UtilityKit.Crypto.IEncryptionService" data-throw-if-not-resolved="false"></xref> that
+
+    provides simple synchronous methods to encrypt and decrypt strings.
+  remarks: >-
+    This class is intended to be registered in the application's DI container
+
+    and consumed via constructor injection. See individual method examples for
+
+    DI usage snippets.
+  example: []
+  syntax:
+    content: 'public class AesEncryptionService : IEncryptionService'
+    content.vb: Public Class AesEncryptionService Implements IEncryptionService
+  inheritance:
+  - System.Object
+  implements:
+  - UtilityKit.Crypto.IEncryptionService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UtilityKit.Crypto.AesEncryptionService.#ctor(System.Byte[])
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: UtilityKit.Crypto.AesEncryptionService
+  langs:
+  - csharp
+  - vb
+  name: AesEncryptionService(byte[])
+  nameWithType: AesEncryptionService.AesEncryptionService(byte[])
+  fullName: UtilityKit.Crypto.AesEncryptionService.AesEncryptionService(byte[])
+  type: Constructor
+  source:
+    remote:
+      path: UtilityKit/Crypto/AesEncryptionService .cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: .ctor
+    path: ../Crypto/AesEncryptionService .cs
+    startLine: 52
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Crypto
+  summary: >-
+    Initializes a new instance of the <xref href="UtilityKit.Crypto.AesEncryptionService" data-throw-if-not-resolved="false"></xref>
+
+    with the specified symmetric key.
+  example: []
+  syntax:
+    content: public AesEncryptionService(byte[] key)
+    parameters:
+    - id: key
+      type: System.Byte[]
+      description: The symmetric key to use for AES encryption/decryption.
+    content.vb: Public Sub New(key As Byte())
+  overload: UtilityKit.Crypto.AesEncryptionService.#ctor*
+  nameWithType.vb: AesEncryptionService.New(Byte())
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.New(Byte())
+  name.vb: New(Byte())
+- uid: UtilityKit.Crypto.AesEncryptionService.Encrypt(System.String)
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.Encrypt(System.String)
+  id: Encrypt(System.String)
+  parent: UtilityKit.Crypto.AesEncryptionService
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(string)
+  nameWithType: AesEncryptionService.Encrypt(string)
+  fullName: UtilityKit.Crypto.AesEncryptionService.Encrypt(string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Crypto/AesEncryptionService .cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Encrypt
+    path: ../Crypto/AesEncryptionService .cs
+    startLine: 89
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Crypto
+  summary: >-
+    Encrypts the given plain text using AES and returns the cipher text
+
+    and the initialization vector (IV) that must be supplied for
+
+    decryption.
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Startup/Program.cs - register the service with DI
+
+    var key = new byte[32];
+
+    RandomNumberGenerator.Fill(key);
+
+    services.AddSingleton&lt;IEncryptionService&gt;(new AesEncryptionService(key));
+
+
+    // Consuming class via constructor injection
+
+    public class MyController
+
+    {
+        private readonly IEncryptionService _enc;
+        public MyController(IEncryptionService enc) =&gt; _enc = enc;
+
+        public void Do()
+        {
+            var (cipher, iv) = _enc.Encrypt("secret");
+            var cipherB64 = Convert.ToBase64String(cipher);
+            var ivB64 = Convert.ToBase64String(iv);
+        }
+    }</code></pre>
+  syntax:
+    content: public (byte[] cipherText, byte[] iv) Encrypt(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: The plain text to encrypt.
+    return:
+      type: System.ValueTuple{System.Byte[],System.Byte[]}
+      description: >-
+        A tuple containing the encrypted bytes as <code>cipherText</code> and the
+
+        <code>iv</code> used for the encryption operation.
+    content.vb: Public Function Encrypt(plainText As String) As (cipherText As Byte(), iv As Byte())
+  overload: UtilityKit.Crypto.AesEncryptionService.Encrypt*
+  implements:
+  - UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+  nameWithType.vb: AesEncryptionService.Encrypt(String)
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.Encrypt(String)
+  name.vb: Encrypt(String)
+- uid: UtilityKit.Crypto.AesEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  id: Decrypt(System.Byte[],System.Byte[])
+  parent: UtilityKit.Crypto.AesEncryptionService
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(byte[], byte[])
+  nameWithType: AesEncryptionService.Decrypt(byte[], byte[])
+  fullName: UtilityKit.Crypto.AesEncryptionService.Decrypt(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Crypto/AesEncryptionService .cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Decrypt
+    path: ../Crypto/AesEncryptionService .cs
+    startLine: 133
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Crypto
+  summary: >-
+    Decrypts the specified cipher text using the provided initialization
+
+    vector and returns the resulting plain text.
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Startup/Program.cs - register the service with DI
+
+    var key = new byte[32];
+
+    RandomNumberGenerator.Fill(key);
+
+    services.AddSingleton&lt;IEncryptionService&gt;(new AesEncryptionService(key));
+
+
+    // Consuming class via constructor injection
+
+    public class MyController
+
+    {
+        private readonly IEncryptionService _enc;
+        public MyController(IEncryptionService enc) =&gt; _enc = enc;
+
+        public void Do(string cipherB64, string ivB64)
+        {
+            var cipher = Convert.FromBase64String(cipherB64);
+            var iv = Convert.FromBase64String(ivB64);
+            var plain = _enc.Decrypt(cipher, iv);
+        }
+    }</code></pre>
+  syntax:
+    content: public string Decrypt(byte[] cipherText, byte[] iv)
+    parameters:
+    - id: cipherText
+      type: System.Byte[]
+      description: The encrypted bytes to decrypt.
+    - id: iv
+      type: System.Byte[]
+      description: The initialization vector that was used to encrypt the data.
+    return:
+      type: System.String
+      description: The decrypted plain text.
+    content.vb: Public Function Decrypt(cipherText As Byte(), iv As Byte()) As String
+  overload: UtilityKit.Crypto.AesEncryptionService.Decrypt*
+  implements:
+  - UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  nameWithType.vb: AesEncryptionService.Decrypt(Byte(), Byte())
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.Decrypt(Byte(), Byte())
+  name.vb: Decrypt(Byte(), Byte())
+references:
+- uid: UtilityKit.Crypto.IEncryptionService
+  commentId: T:UtilityKit.Crypto.IEncryptionService
+  parent: UtilityKit.Crypto
+  href: UtilityKit.Crypto.IEncryptionService.html
+  name: IEncryptionService
+  nameWithType: IEncryptionService
+  fullName: UtilityKit.Crypto.IEncryptionService
+- uid: UtilityKit.Crypto
+  commentId: N:UtilityKit.Crypto
+  href: UtilityKit.html
+  name: UtilityKit.Crypto
+  nameWithType: UtilityKit.Crypto
+  fullName: UtilityKit.Crypto
+  spec.csharp:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Crypto
+    name: Crypto
+    href: UtilityKit.Crypto.html
+  spec.vb:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Crypto
+    name: Crypto
+    href: UtilityKit.Crypto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UtilityKit.Crypto.AesEncryptionService
+  commentId: T:UtilityKit.Crypto.AesEncryptionService
+  href: UtilityKit.Crypto.AesEncryptionService.html
+  name: AesEncryptionService
+  nameWithType: AesEncryptionService
+  fullName: UtilityKit.Crypto.AesEncryptionService
+- uid: UtilityKit.Crypto.AesEncryptionService.#ctor*
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.#ctor
+  href: UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService__ctor_System_Byte___
+  name: AesEncryptionService
+  nameWithType: AesEncryptionService.AesEncryptionService
+  fullName: UtilityKit.Crypto.AesEncryptionService.AesEncryptionService
+  nameWithType.vb: AesEncryptionService.New
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: UtilityKit.Crypto.AesEncryptionService.Encrypt*
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.Encrypt
+  href: UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Encrypt_System_String_
+  name: Encrypt
+  nameWithType: AesEncryptionService.Encrypt
+  fullName: UtilityKit.Crypto.AesEncryptionService.Encrypt
+- uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+  commentId: M:UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+  parent: UtilityKit.Crypto.IEncryptionService
+  isExternal: true
+  href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
+  name: Encrypt(string)
+  nameWithType: IEncryptionService.Encrypt(string)
+  fullName: UtilityKit.Crypto.IEncryptionService.Encrypt(string)
+  nameWithType.vb: IEncryptionService.Encrypt(String)
+  fullName.vb: UtilityKit.Crypto.IEncryptionService.Encrypt(String)
+  name.vb: Encrypt(String)
+  spec.csharp:
+  - uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+    name: Encrypt
+    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+    name: Encrypt
+    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueTuple{System.Byte[],System.Byte[]}
+  commentId: T:System.ValueTuple{System.Byte[],System.Byte[]}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: (byte[] cipherText, byte[] iv)
+  nameWithType: (byte[] cipherText, byte[] iv)
+  fullName: (byte[] cipherText, byte[] iv)
+  nameWithType.vb: (cipherText As Byte(), iv As Byte())
+  fullName.vb: (cipherText As Byte(), iv As Byte())
+  name.vb: (cipherText As Byte(), iv As Byte())
+  spec.csharp:
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: " "
+  - uid: System.ValueTuple{System.Byte[],System.Byte[]}.cipherText
+    name: cipherText
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.byte[]-.ciphertext
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: " "
+  - uid: System.ValueTuple{System.Byte[],System.Byte[]}.iv
+    name: iv
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.byte[]-.iv
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Byte[],System.Byte[]}.cipherText
+    name: cipherText
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.byte[]-.ciphertext
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Byte[],System.Byte[]}.iv
+    name: iv
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.byte[],system.byte[]-.iv
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: UtilityKit.Crypto.AesEncryptionService.Decrypt*
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.Decrypt
+  href: UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Decrypt_System_Byte___System_Byte___
+  name: Decrypt
+  nameWithType: AesEncryptionService.Decrypt
+  fullName: UtilityKit.Crypto.AesEncryptionService.Decrypt
+- uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  commentId: M:UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  parent: UtilityKit.Crypto.IEncryptionService
+  isExternal: true
+  href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
+  name: Decrypt(byte[], byte[])
+  nameWithType: IEncryptionService.Decrypt(byte[], byte[])
+  fullName: UtilityKit.Crypto.IEncryptionService.Decrypt(byte[], byte[])
+  nameWithType.vb: IEncryptionService.Decrypt(Byte(), Byte())
+  fullName.vb: UtilityKit.Crypto.IEncryptionService.Decrypt(Byte(), Byte())
+  name.vb: Decrypt(Byte(), Byte())
+  spec.csharp:
+  - uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+    name: Decrypt
+    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+    name: Decrypt
+    href: UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )

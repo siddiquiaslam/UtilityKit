@@ -3,6 +3,15 @@ namespace UtilityKit.Extensions.String
     /// <summary>
     /// Formatting and transformation string extension methods.
     /// </summary>
+    /// <remarks>
+    /// Example usage:
+    /// <code language="csharp">
+    /// var title = "hello world".ToTitleCase();
+    /// var slug = "Café au lait".ToSlug();
+    /// var mask = "1234567890".Mask(2,2);
+    /// var file = "a/b\n.txt".SafeFileName();
+    /// </code>
+    /// </remarks>
     public static class FormattingExtensions
     {
         /// <summary>

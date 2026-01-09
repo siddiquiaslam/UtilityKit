@@ -1,0 +1,360 @@
+{
+  "source_base_path": "D:/Aslam/GitHub/UtilityKit/UtilityKit/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Crypto.AesEncryptionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Crypto.AesEncryptionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Crypto.AesEncryptionService",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Crypto.AesEncryptionService.yml\" sourcestartlinenumber=\"1\">AES-based implementation of <xref href=\"UtilityKit.Crypto.IEncryptionService\" data-throw-if-not-resolved=\"false\"></xref> that\nprovides simple synchronous methods to encrypt and decrypt strings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Crypto.IEncryptionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Crypto.IEncryptionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Crypto.IEncryptionService",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Crypto.IEncryptionService.yml\" sourcestartlinenumber=\"1\">Defines basic encryption service operations used to encrypt and decrypt\ntextual data using a symmetric algorithm.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Crypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Crypto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Crypto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.DX.Ensure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.DX.Ensure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.DX.Ensure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.DX.EnsureBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.DX.EnsureBuilder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.DX.EnsureBuilder<T>",
+      "Summary": "<p sourcefile=\"api/UtilityKit.DX.EnsureBuilder-1.yml\" sourcestartlinenumber=\"1\">Provides fluent guard clause builder for chaining validations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.DX.EnsureResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.DX.EnsureResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.DX.EnsureResult",
+      "Summary": "<p sourcefile=\"api/UtilityKit.DX.EnsureResult.yml\" sourcestartlinenumber=\"1\">Represents the outcome of an <xref href=\"UtilityKit.DX.Ensure\" data-throw-if-not-resolved=\"false\"></xref> guard clause check.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.DX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.DX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.DX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.DateAndTime.FormattingExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for formatting values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.DateAndTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.DateAndTime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.DateAndTime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.CollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.CollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.EncodingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.EncodingExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.EncodingExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.EncodingExtensions.yml\" sourcestartlinenumber=\"1\">Encoding/decoding string extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.FormattingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.FormattingExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.FormattingExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.FormattingExtensions.yml\" sourcestartlinenumber=\"1\">Formatting and transformation string extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.JsonXmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.JsonXmlExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.JsonXmlExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.JsonXmlExtensions.yml\" sourcestartlinenumber=\"1\">JSON/XML helper extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.ParsingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.ParsingExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.ParsingExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.ParsingExtensions.yml\" sourcestartlinenumber=\"1\">Parsing and conversion string extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.QueryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.QueryExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.QueryExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.QueryExtensions.yml\" sourcestartlinenumber=\"1\">URL/query and related helpers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.SimilarityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.SimilarityExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.SimilarityExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.SimilarityExtensions.yml\" sourcestartlinenumber=\"1\">Similarity and distance algorithms for strings.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.ValidationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.ValidationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String.ValidationExtensions",
+      "Summary": "<p sourcefile=\"api/UtilityKit.Extensions.String.ValidationExtensions.yml\" sourcestartlinenumber=\"1\">Validation-related string extension methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UtilityKit.Extensions.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UtilityKit.Extensions.String.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UtilityKit.Extensions.String",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fav.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fav.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

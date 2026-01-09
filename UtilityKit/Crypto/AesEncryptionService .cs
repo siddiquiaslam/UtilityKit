@@ -37,23 +37,9 @@ public interface IEncryptionService
 /// provides simple synchronous methods to encrypt and decrypt strings.
 /// </summary>
 /// <remarks>
-/// Example usage:
-/// <code language="csharp">
-/// // Generate a 256-bit key (32 bytes) and create the service
-/// var key = new byte[32];
-/// RandomNumberGenerator.Fill(key);
-/// var service = new AesEncryptionService(key);
-///
-/// // Encrypt
-/// var (cipher, iv) = service.Encrypt("Hello, world!");
-/// var cipherBase64 = Convert.ToBase64String(cipher);
-/// var ivBase64 = Convert.ToBase64String(iv);
-///
-/// // Later, to decrypt:
-/// var cipherBytes = Convert.FromBase64String(cipherBase64);
-/// var ivBytes = Convert.FromBase64String(ivBase64);
-/// var plain = service.Decrypt(cipherBytes, ivBytes);
-/// </code>
+/// This class is intended to be registered in the application's DI container
+/// and consumed via constructor injection. See individual method examples for
+/// DI usage snippets.
 /// </remarks>
 public class AesEncryptionService : IEncryptionService
 {
@@ -79,6 +65,28 @@ public class AesEncryptionService : IEncryptionService
     /// A tuple containing the encrypted bytes as <c>cipherText</c> and the
     /// <c>iv</c> used for the encryption operation.
     /// </returns>
+    /// <example>
+    /// <code language="csharp"><![CDATA[
+    /// // Startup/Program.cs - register the service with DI
+    /// var key = new byte[32];
+    /// RandomNumberGenerator.Fill(key);
+    /// services.AddSingleton<IEncryptionService>(new AesEncryptionService(key));
+    ///
+    /// // Consuming class via constructor injection
+    /// public class MyController
+    /// {
+    ///     private readonly IEncryptionService _enc;
+    ///     public MyController(IEncryptionService enc) => _enc = enc;
+    ///
+    ///     public void Do()
+    ///     {
+    ///         var (cipher, iv) = _enc.Encrypt("secret");
+    ///         var cipherB64 = Convert.ToBase64String(cipher);
+    ///         var ivB64 = Convert.ToBase64String(iv);
+    ///     }
+    /// }
+    /// ]]></code>
+    /// </example>
     public (byte[] cipherText, byte[] iv) Encrypt(string plainText)
     {
         using var aes = Aes.Create();
@@ -101,6 +109,28 @@ public class AesEncryptionService : IEncryptionService
     /// <param name="cipherText">The encrypted bytes to decrypt.</param>
     /// <param name="iv">The initialization vector that was used to encrypt the data.</param>
     /// <returns>The decrypted plain text.</returns>
+    /// <example>
+    /// <code language="csharp"><![CDATA[
+    /// // Startup/Program.cs - register the service with DI
+    /// var key = new byte[32];
+    /// RandomNumberGenerator.Fill(key);
+    /// services.AddSingleton<IEncryptionService>(new AesEncryptionService(key));
+    ///
+    /// // Consuming class via constructor injection
+    /// public class MyController
+    /// {
+    ///     private readonly IEncryptionService _enc;
+    ///     public MyController(IEncryptionService enc) => _enc = enc;
+    ///
+    ///     public void Do(string cipherB64, string ivB64)
+    ///     {
+    ///         var cipher = Convert.FromBase64String(cipherB64);
+    ///         var iv = Convert.FromBase64String(ivB64);
+    ///         var plain = _enc.Decrypt(cipher, iv);
+    ///     }
+    /// }
+    /// ]]></code>
+    /// </example>
     public string Decrypt(byte[] cipherText, byte[] iv)
     {
         using var aes = Aes.Create();
