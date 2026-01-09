@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started | UtilityKit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started | UtilityKit ">
+      
+      <meta name="description" content="A short guide to installing UtilityKit, using the most common helpers, building from source, and running tests.">
+      <link rel="icon" href="../images/fav.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/siddiquiaslam/UtilityKit/blob/AddAPIDoc/UtilityKit/Docs/docs/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="UtilityKit">
+            UtilityKit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="getting-started">
+<h1 id="getting-started">Getting started</h1>
+
+<p>This guide shows the quickest way to start using UtilityKit in a .NET project, plus instructions for building the library locally and running tests.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>.NET SDK (recommended: .NET 6, .NET 7, or later)</li>
+<li>A code editor (Visual Studio / VS Code / Rider)</li>
+<li>Optional: docfx to build documentation locally</li>
+</ul>
+<h2 id="install-via-nuget">Install via NuGet</h2>
+<p>The package on NuGet is published as <code>UtilityKit</code>. Replace <code>x.y.z</code> with the version you want to use.</p>
+<p>dotnet CLI</p>
+<pre><code class="lang-bash">dotnet add package UtilityKit --version x.y.z
+</code></pre>
+<p>PackageReference</p>
+<pre><code class="lang-xml">&lt;PackageReference Include=&quot;UtilityKit&quot; Version=&quot;x.y.z&quot; /&gt;
+</code></pre>
+<p>If you want to depend on the local project during development, add a project reference instead of the package.</p>
+<h2 id="quick-usage-examples">Quick usage examples</h2>
+<p>Add the namespace (actual types may vary — check the API reference produced by DocFX):</p>
+<pre><code class="lang-csharp">using UtilityKit;
+
+public class QuickExamples
+{
+    public void Run()
+    {
+        // 1. Safe string helpers
+        string input = &quot;  hello &quot;;
+        var trimmed = StringHelpers.TrimOrNull(input); // &quot;hello&quot;
+
+        // 2. Guard helpers: argument validation
+        Guard.NotNull(input, nameof(input));
+
+        // 3. DistinctBy: collection helper (LINQ-style)
+        var users = new List&lt;User&gt; { /* ... */ };
+        var uniqueByEmail = users.DistinctBy(u =&gt; u.Email).ToList();
+
+        // 4. Date/time helper: get UTC ISO string
+        var nowUtcIso = DateTime.Now.ToUtcIsoString(); // e.g. &quot;2026-01-09T12:34:56Z&quot;
+
+        // 5. JSON helpers
+        var json = JsonHelpers.Serialize(users);
+        var deserialized = JsonHelpers.Deserialize&lt;List&lt;User&gt;&gt;(json);
+    }
+}
+</code></pre>
+<p>Note: The examples above demonstrate typical usage patterns. Consult the API reference for exact type and method names available in the version you install.</p>
+<h2 id="add-to-a-project-example">Add to a project (example)</h2>
+<p>Create a new console app and add UtilityKit:</p>
+<pre><code class="lang-bash">dotnet new console -n MyApp
+cd MyApp
+dotnet add package UtilityKit --version x.y.z
+</code></pre>
+<p>Use helpers:</p>
+<pre><code class="lang-csharp">using UtilityKit;
+
+Console.WriteLine(StringHelpers.TrimOrNull(&quot; sample &quot;));
+</code></pre>
+<h2 id="build-from-source">Build from source</h2>
+<p>If you want to build UtilityKit locally or contribute, follow these steps:</p>
+<ol>
+<li>Clone the repository:</li>
+</ol>
+<pre><code class="lang-bash">git clone https://github.com/siddiquiaslam/UtilityKit.git
+cd UtilityKit
+</code></pre>
+<ol start="2">
+<li>Restore dependencies and build:</li>
+</ol>
+<pre><code class="lang-bash">dotnet restore
+dotnet build -c Release
+</code></pre>
+<ol start="3">
+<li>(Optional) Create a local NuGet package:</li>
+</ol>
+<pre><code class="lang-bash">dotnet pack -c Release -o nupkg
+</code></pre>
+<p>You can then install the generated <code>.nupkg</code> into your projects or publish to a local feed.</p>
+<h2 id="run-tests">Run tests</h2>
+<p>Unit tests are included in the repository (if present). Run them with:</p>
+<pre><code class="lang-bash">dotnet test
+</code></pre>
+<p>If tests require specific runtimes or environment variables, check the test project's README or the repository's CI configuration.</p>
+<h2 id="working-with-specific-frameworks">Working with specific frameworks</h2>
+<p>UtilityKit aims to target commonly used .NET frameworks (for example, <code>net6.0</code>, <code>net7.0</code>, or <code>netstandard2.0</code>) so it can be reused in libraries and apps. If you encounter compatibility issues:</p>
+<ul>
+<li>Ensure your app's target framework is compatible with the UtilityKit package version you're using.</li>
+<li>If building from source, inspect project files (<code>.csproj</code>) for target frameworks and adjust as needed.</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li>&quot;NU1101: Package not found&quot; — verify the package id and version, or use a local <code>.nupkg</code> produced via <code>dotnet pack</code>.</li>
+<li>&quot;Type or namespace name 'UtilityKit' does not exist&quot; — confirm <code>using</code> statement and that the package/reference is added to the correct project.</li>
+<li>Platform-specific APIs — some helpers may target modern .NET runtimes. If you need legacy framework support, check the project's supported TFMs or open an issue.</li>
+</ul>
+<h2 id="documentation--reference">Documentation &amp; reference</h2>
+<ul>
+<li>Repository: <a href="https://github.com/siddiquiaslam/UtilityKit">UtilityKit on GitHub</a></li>
+<li>API reference: generated by DocFX (link in the site navigation)</li>
+<li>Issues / feature requests: open an issue in this repository</li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<ul>
+<li>Explore the API reference for detailed type and method documentation.</li>
+<li>Check the &quot;Recipes&quot; or &quot;How-to&quot; pages for copy-paste examples of common tasks.</li>
+</ul>
+<p>If something is missing or unclear in the docs, please open an issue or send a PR with improved examples or corrections.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1130 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.Extensions.String.FormattingExtensions
+  commentId: T:UtilityKit.Extensions.String.FormattingExtensions
+  id: FormattingExtensions
+  parent: UtilityKit.Extensions.String
+  children:
+  - UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(System.String,System.String,System.StringComparison)
+  - UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(System.String,System.String,System.StringComparison)
+  - UtilityKit.Extensions.String.FormattingExtensions.Left(System.String,System.Int32)
+  - UtilityKit.Extensions.String.FormattingExtensions.Mask(System.String,System.Int32,System.Int32,System.Char)
+  - UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(System.String)
+  - UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(System.String)
+  - UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(System.String)
+  - UtilityKit.Extensions.String.FormattingExtensions.Reverse(System.String)
+  - UtilityKit.Extensions.String.FormattingExtensions.Right(System.String,System.Int32)
+  - UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(System.String,System.Char)
+  - UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(System.String,System.Text.NormalizationForm)
+  - UtilityKit.Extensions.String.FormattingExtensions.ToSlug(System.String,System.Boolean)
+  - UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(System.String,System.Globalization.CultureInfo)
+  - UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(System.String)
+  - UtilityKit.Extensions.String.FormattingExtensions.Truncate(System.String,System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: FormattingExtensions
+  nameWithType: FormattingExtensions
+  fullName: UtilityKit.Extensions.String.FormattingExtensions
+  type: Class
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: FormattingExtensions
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 14
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Formatting and transformation string extension methods.
+  remarks: >-
+    Example usage:
+
+    <pre><code class="lang-csharp">var title = "hello world".ToTitleCase();
+
+    var slug = "Café au lait".ToSlug();
+
+    var mask = "1234567890".Mask(2,2);
+
+    var file = "a/b\n.txt".SafeFileName();</code></pre>
+  example: []
+  syntax:
+    content: public static class FormattingExtensions
+    content.vb: Public Module FormattingExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(System.String,System.Globalization.CultureInfo)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(System.String,System.Globalization.CultureInfo)
+  id: ToTitleCase(System.String,System.Globalization.CultureInfo)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToTitleCase(string, CultureInfo?)
+  nameWithType: FormattingExtensions.ToTitleCase(string, CultureInfo?)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(string, System.Globalization.CultureInfo?)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToTitleCase
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 19
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Converts string to title case using the provided or current culture.
+  example: []
+  syntax:
+    content: public static string ToTitleCase(this string value, CultureInfo? culture = null)
+    parameters:
+    - id: value
+      type: System.String
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToTitleCase(value As String, culture As CultureInfo = Nothing) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase*
+  nameWithType.vb: FormattingExtensions.ToTitleCase(String, CultureInfo)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(String, System.Globalization.CultureInfo)
+  name.vb: ToTitleCase(String, CultureInfo)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(System.String,System.Boolean)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToSlug(System.String,System.Boolean)
+  id: ToSlug(System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToSlug(string, bool)
+  nameWithType: FormattingExtensions.ToSlug(string, bool)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(string, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToSlug
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 29
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Produces a URL-safe slug from the input string.
+  example: []
+  syntax:
+    content: public static string ToSlug(this string value, bool removeAccents = true)
+    parameters:
+    - id: value
+      type: System.String
+    - id: removeAccents
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToSlug(value As String, removeAccents As Boolean = True) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.ToSlug*
+  nameWithType.vb: FormattingExtensions.ToSlug(String, Boolean)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(String, Boolean)
+  name.vb: ToSlug(String, Boolean)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(System.String)
+  id: TrimToNull(System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: TrimToNull(string?)
+  nameWithType: FormattingExtensions.TrimToNull(string?)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(string?)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: TrimToNull
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 47
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Returns a trimmed string or null when result is empty.
+  example: []
+  syntax:
+    content: public static string? TrimToNull(this string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function TrimToNull(value As String) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull*
+  nameWithType.vb: FormattingExtensions.TrimToNull(String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(String)
+  name.vb: TrimToNull(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(System.String,System.String,System.StringComparison)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(System.String,System.String,System.StringComparison)
+  id: EnsureEndsWith(System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: EnsureEndsWith(string, string, StringComparison)
+  nameWithType: FormattingExtensions.EnsureEndsWith(string, string, StringComparison)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(string, string, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: EnsureEndsWith
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 57
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Ensures string ends with <code class="paramref">suffix</code> (no-op if suffix is null/empty).
+  example: []
+  syntax:
+    content: public static string EnsureEndsWith(this string value, string suffix, StringComparison comparison = StringComparison.Ordinal)
+    parameters:
+    - id: value
+      type: System.String
+    - id: suffix
+      type: System.String
+    - id: comparison
+      type: System.StringComparison
+    return:
+      type: System.String
+    content.vb: Public Shared Function EnsureEndsWith(value As String, suffix As String, comparison As StringComparison = StringComparison.Ordinal) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith*
+  nameWithType.vb: FormattingExtensions.EnsureEndsWith(String, String, StringComparison)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(String, String, System.StringComparison)
+  name.vb: EnsureEndsWith(String, String, StringComparison)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(System.String,System.String,System.StringComparison)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(System.String,System.String,System.StringComparison)
+  id: EnsureStartsWith(System.String,System.String,System.StringComparison)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: EnsureStartsWith(string, string, StringComparison)
+  nameWithType: FormattingExtensions.EnsureStartsWith(string, string, StringComparison)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(string, string, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: EnsureStartsWith
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 66
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Ensures string starts with <code class="paramref">prefix</code> (no-op if prefix is null/empty).
+  example: []
+  syntax:
+    content: public static string EnsureStartsWith(this string value, string prefix, StringComparison comparison = StringComparison.Ordinal)
+    parameters:
+    - id: value
+      type: System.String
+    - id: prefix
+      type: System.String
+    - id: comparison
+      type: System.StringComparison
+    return:
+      type: System.String
+    content.vb: Public Shared Function EnsureStartsWith(value As String, prefix As String, comparison As StringComparison = StringComparison.Ordinal) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith*
+  nameWithType.vb: FormattingExtensions.EnsureStartsWith(String, String, StringComparison)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(String, String, System.StringComparison)
+  name.vb: EnsureStartsWith(String, String, StringComparison)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Truncate(System.String,System.Int32,System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Truncate(System.String,System.Int32,System.String)
+  id: Truncate(System.String,System.Int32,System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Truncate(string, int, string?)
+  nameWithType: FormattingExtensions.Truncate(string, int, string?)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Truncate(string, int, string?)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Truncate
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 75
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Truncates to <code class="paramref">maxLength</code> and appends optional <code class="paramref">suffix</code>.
+  example: []
+  syntax:
+    content: public static string Truncate(this string value, int maxLength, string? suffix = "...")
+    parameters:
+    - id: value
+      type: System.String
+    - id: maxLength
+      type: System.Int32
+    - id: suffix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Truncate(value As String, maxLength As Integer, suffix As String = "...") As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.Truncate*
+  nameWithType.vb: FormattingExtensions.Truncate(String, Integer, String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Truncate(String, Integer, String)
+  name.vb: Truncate(String, Integer, String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Left(System.String,System.Int32)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Left(System.String,System.Int32)
+  id: Left(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Left(string, int)
+  nameWithType: FormattingExtensions.Left(string, int)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Left(string, int)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Left
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 89
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Returns the leftmost <code class="paramref">length</code> characters, safe with bounds.
+  example: []
+  syntax:
+    content: public static string Left(this string value, int length)
+    parameters:
+    - id: value
+      type: System.String
+    - id: length
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function Left(value As String, length As Integer) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.Left*
+  nameWithType.vb: FormattingExtensions.Left(String, Integer)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Left(String, Integer)
+  name.vb: Left(String, Integer)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Right(System.String,System.Int32)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Right(System.String,System.Int32)
+  id: Right(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Right(string, int)
+  nameWithType: FormattingExtensions.Right(string, int)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Right(string, int)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Right
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 99
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Returns the rightmost <code class="paramref">length</code> characters, safe with bounds.
+  example: []
+  syntax:
+    content: public static string Right(this string value, int length)
+    parameters:
+    - id: value
+      type: System.String
+    - id: length
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function Right(value As String, length As Integer) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.Right*
+  nameWithType.vb: FormattingExtensions.Right(String, Integer)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Right(String, Integer)
+  name.vb: Right(String, Integer)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Reverse(System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Reverse(System.String)
+  id: Reverse(System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Reverse(string)
+  nameWithType: FormattingExtensions.Reverse(string)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Reverse(string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Reverse
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 109
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Reverses characters in the string.
+  example: []
+  syntax:
+    content: public static string Reverse(this string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Reverse(value As String) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.Reverse*
+  nameWithType.vb: FormattingExtensions.Reverse(String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Reverse(String)
+  name.vb: Reverse(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(System.String,System.Text.NormalizationForm)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(System.String,System.Text.NormalizationForm)
+  id: ToNormalized(System.String,System.Text.NormalizationForm)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToNormalized(string, NormalizationForm)
+  nameWithType: FormattingExtensions.ToNormalized(string, NormalizationForm)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(string, System.Text.NormalizationForm)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToNormalized
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 120
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Normalizes Unicode string to the specified <code class="paramref">form</code>.
+  example: []
+  syntax:
+    content: public static string ToNormalized(this string value, NormalizationForm form = NormalizationForm.FormC)
+    parameters:
+    - id: value
+      type: System.String
+    - id: form
+      type: System.Text.NormalizationForm
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToNormalized(value As String, form As NormalizationForm = NormalizationForm.FormC) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized*
+  nameWithType.vb: FormattingExtensions.ToNormalized(String, NormalizationForm)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(String, System.Text.NormalizationForm)
+  name.vb: ToNormalized(String, NormalizationForm)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(System.String)
+  id: RemoveDiacritics(System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveDiacritics(string)
+  nameWithType: FormattingExtensions.RemoveDiacritics(string)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: RemoveDiacritics
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 126
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Removes diacritics (accents) from characters.
+  example: []
+  syntax:
+    content: public static string RemoveDiacritics(this string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveDiacritics(value As String) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics*
+  nameWithType.vb: FormattingExtensions.RemoveDiacritics(String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(String)
+  name.vb: RemoveDiacritics(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(System.String,System.Char)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(System.String,System.Char)
+  id: SafeFileName(System.String,System.Char)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: SafeFileName(string, char)
+  nameWithType: FormattingExtensions.SafeFileName(string, char)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(string, char)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: SafeFileName
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 145
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Returns a safe file name by replacing invalid characters with <code class="paramref">replacement</code>.
+  example: []
+  syntax:
+    content: public static string SafeFileName(this string value, char replacement = '_')
+    parameters:
+    - id: value
+      type: System.String
+    - id: replacement
+      type: System.Char
+    return:
+      type: System.String
+    content.vb: Public Shared Function SafeFileName(value As String, replacement As Char = "_"c) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName*
+  nameWithType.vb: FormattingExtensions.SafeFileName(String, Char)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(String, Char)
+  name.vb: SafeFileName(String, Char)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Mask(System.String,System.Int32,System.Int32,System.Char)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Mask(System.String,System.Int32,System.Int32,System.Char)
+  id: Mask(System.String,System.Int32,System.Int32,System.Char)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mask(string, int, int, char)
+  nameWithType: FormattingExtensions.Mask(string, int, int, char)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Mask(string, int, int, char)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Mask
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 160
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Masks a string leaving <code class="paramref">unmaskedStart</code> and <code class="paramref">unmaskedEnd</code> visible.
+  example: []
+  syntax:
+    content: public static string Mask(this string value, int unmaskedStart = 1, int unmaskedEnd = 1, char maskChar = '*')
+    parameters:
+    - id: value
+      type: System.String
+    - id: unmaskedStart
+      type: System.Int32
+    - id: unmaskedEnd
+      type: System.Int32
+    - id: maskChar
+      type: System.Char
+    return:
+      type: System.String
+    content.vb: Public Shared Function Mask(value As String, unmaskedStart As Integer = 1, unmaskedEnd As Integer = 1, maskChar As Char = "*"c) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.Mask*
+  nameWithType.vb: FormattingExtensions.Mask(String, Integer, Integer, Char)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Mask(String, Integer, Integer, Char)
+  name.vb: Mask(String, Integer, Integer, Char)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(System.String)
+  id: NormalizeWhitespace(System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: NormalizeWhitespace(string)
+  nameWithType: FormattingExtensions.NormalizeWhitespace(string)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: NormalizeWhitespace
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 175
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Collapses consecutive whitespace to single spaces and trims.
+  example: []
+  syntax:
+    content: public static string NormalizeWhitespace(this string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function NormalizeWhitespace(value As String) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace*
+  nameWithType.vb: FormattingExtensions.NormalizeWhitespace(String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(String)
+  name.vb: NormalizeWhitespace(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(System.String)
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(System.String)
+  id: RemoveWhitespace(System.String)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.String.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveWhitespace(string)
+  nameWithType: FormattingExtensions.RemoveWhitespace(string)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/String/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: RemoveWhitespace
+    path: ../Extensions/String/FormattingExtensions.cs
+    startLine: 184
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.String
+  summary: Removes all whitespace characters.
+  example: []
+  syntax:
+    content: public static string RemoveWhitespace(this string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveWhitespace(value As String) As String
+  overload: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace*
+  nameWithType.vb: FormattingExtensions.RemoveWhitespace(String)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(String)
+  name.vb: RemoveWhitespace(String)
+references:
+- uid: UtilityKit.Extensions.String
+  commentId: N:UtilityKit.Extensions.String
+  href: UtilityKit.html
+  name: UtilityKit.Extensions.String
+  nameWithType: UtilityKit.Extensions.String
+  fullName: UtilityKit.Extensions.String
+  spec.csharp:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Extensions
+    name: Extensions
+    href: UtilityKit.Extensions.html
+  - name: .
+  - uid: UtilityKit.Extensions.String
+    name: String
+    href: UtilityKit.Extensions.String.html
+  spec.vb:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Extensions
+    name: Extensions
+    href: UtilityKit.Extensions.html
+  - name: .
+  - uid: UtilityKit.Extensions.String
+    name: String
+    href: UtilityKit.Extensions.String.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToTitleCase_System_String_System_Globalization_CultureInfo_
+  name: ToTitleCase
+  nameWithType: FormattingExtensions.ToTitleCase
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToSlug*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToSlug
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToSlug_System_String_System_Boolean_
+  name: ToSlug
+  nameWithType: FormattingExtensions.ToSlug
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToSlug
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.TrimToNull
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_TrimToNull_System_String_
+  name: TrimToNull
+  nameWithType: FormattingExtensions.TrimToNull
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureEndsWith_System_String_System_String_System_StringComparison_
+  name: EnsureEndsWith
+  nameWithType: FormattingExtensions.EnsureEndsWith
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.stringcomparison
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureStartsWith_System_String_System_String_System_StringComparison_
+  name: EnsureStartsWith
+  nameWithType: FormattingExtensions.EnsureStartsWith
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Truncate*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Truncate
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Truncate_System_String_System_Int32_System_String_
+  name: Truncate
+  nameWithType: FormattingExtensions.Truncate
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Truncate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Left*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Left
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Left_System_String_System_Int32_
+  name: Left
+  nameWithType: FormattingExtensions.Left
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Left
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Right*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Right
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Right_System_String_System_Int32_
+  name: Right
+  nameWithType: FormattingExtensions.Right
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Right
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Reverse*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Reverse
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Reverse_System_String_
+  name: Reverse
+  nameWithType: FormattingExtensions.Reverse
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Reverse
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToNormalized
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToNormalized_System_String_System_Text_NormalizationForm_
+  name: ToNormalized
+  nameWithType: FormattingExtensions.ToNormalized
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized
+- uid: System.Text.NormalizationForm
+  commentId: T:System.Text.NormalizationForm
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.normalizationform
+  name: NormalizationForm
+  nameWithType: NormalizationForm
+  fullName: System.Text.NormalizationForm
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveDiacritics_System_String_
+  name: RemoveDiacritics
+  nameWithType: FormattingExtensions.RemoveDiacritics
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics
+- uid: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.SafeFileName
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_SafeFileName_System_String_System_Char_
+  name: SafeFileName
+  nameWithType: FormattingExtensions.SafeFileName
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Mask*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Mask
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Mask_System_String_System_Int32_System_Int32_System_Char_
+  name: Mask
+  nameWithType: FormattingExtensions.Mask
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Mask
+- uid: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_NormalizeWhitespace_System_String_
+  name: NormalizeWhitespace
+  nameWithType: FormattingExtensions.NormalizeWhitespace
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace*
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace
+  href: UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveWhitespace_System_String_
+  name: RemoveWhitespace
+  nameWithType: FormattingExtensions.RemoveWhitespace
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace

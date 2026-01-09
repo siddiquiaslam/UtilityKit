@@ -1,0 +1,1442 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  commentId: T:UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  id: FormattingExtensions
+  parent: UtilityKit.Extensions.DateAndTime
+  children:
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(System.Int64)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime,System.Boolean)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: FormattingExtensions
+  nameWithType: FormattingExtensions
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  type: Class
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: FormattingExtensions
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 9
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Provides extension methods for formatting values.
+  remarks: >-
+    This static class is intended to contain a variety of formatting helpers
+
+    that improve readability and consistency across applications.
+  example: []
+  syntax:
+    content: public static class FormattingExtensions
+    content.vb: Public Module FormattingExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  id: ToRelativeTime(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRelativeTime(DateTime)
+  nameWithType: FormattingExtensions.ToRelativeTime(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToRelativeTime
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 34
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a human-readable relative time string.
+  remarks: >-
+    This method uses approximate calculations for months and years based on days
+
+    (30 days ≈ 1 month, 365 days ≈ 1 year). For precise calendar calculations,
+
+    consider using <xref href="System.Globalization.Calendar" data-throw-if-not-resolved="false"></xref> methods.
+  example: []
+  syntax:
+    content: public static string ToRelativeTime(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to convert. The input is normalized to UTC before comparison.
+    return:
+      type: System.String
+      description: >-
+        A string representing the relative time difference between the specified <code class="paramref">dateTime</code>
+
+        and the current UTC time. Examples include:
+
+        <ul><li>"just now"</li><li>"5 minutes ago"</li><li>"yesterday"</li><li>"2 weeks ago"</li><li>"3 months ago"</li><li>"2 years ago"</li></ul>
+    content.vb: Public Shared Function ToRelativeTime(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime*
+  nameWithType.vb: FormattingExtensions.ToRelativeTime(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(Date)
+  name.vb: ToRelativeTime(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  id: ToIso8601String(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToIso8601String(DateTime)
+  nameWithType: FormattingExtensions.ToIso8601String(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToIso8601String
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 63
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into an ISO 8601 formatted string (UTC).
+  example: []
+  syntax:
+    content: public static string ToIso8601String(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format. The input is normalized to UTC before conversion.
+    return:
+      type: System.String
+      description: A string representing the <code class="paramref">dateTime</code> in ISO 8601 format, e.g. "2025-12-15T21:39:00Z".
+    content.vb: Public Shared Function ToIso8601String(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String*
+  nameWithType.vb: FormattingExtensions.ToIso8601String(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(Date)
+  name.vb: ToIso8601String(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  id: ToUnixTimestamp(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimestamp(DateTime)
+  nameWithType: FormattingExtensions.ToUnixTimestamp(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToUnixTimestamp
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 77
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a Unix timestamp (seconds since 1970-01-01 UTC).
+  example: []
+  syntax:
+    content: public static long ToUnixTimestamp(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to convert. The input is normalized to UTC before conversion.
+    return:
+      type: System.Int64
+      description: A long representing the number of seconds elapsed since 1970-01-01T00:00:00Z.
+    content.vb: Public Shared Function ToUnixTimestamp(dateTime As Date) As Long
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp*
+  nameWithType.vb: FormattingExtensions.ToUnixTimestamp(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(Date)
+  name.vb: ToUnixTimestamp(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(System.Int64)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(System.Int64)
+  id: FromUnixTimestamp(System.Int64)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromUnixTimestamp(long)
+  nameWithType: FormattingExtensions.FromUnixTimestamp(long)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(long)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: FromUnixTimestamp
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 93
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a Unix timestamp (seconds since 1970-01-01 UTC) into a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value.
+  example: []
+  syntax:
+    content: public static DateTime FromUnixTimestamp(this long timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Int64
+      description: The Unix timestamp to convert, expressed as the number of seconds since 1970-01-01T00:00:00Z.
+    return:
+      type: System.DateTime
+      description: A <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value in UTC corresponding to the given Unix timestamp.
+    content.vb: Public Shared Function FromUnixTimestamp(timestamp As Long) As Date
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp*
+  nameWithType.vb: FormattingExtensions.FromUnixTimestamp(Long)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(Long)
+  name.vb: FromUnixTimestamp(Long)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  id: ToFriendlyDateString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToFriendlyDateString(DateTime)
+  nameWithType: FormattingExtensions.ToFriendlyDateString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToFriendlyDateString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 108
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a friendly, human-readable date string.
+  example: []
+  syntax:
+    content: public static string ToFriendlyDateString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    return:
+      type: System.String
+      description: A string representing the date in a friendly format, e.g. "Monday, December 15, 2025".
+    content.vb: Public Shared Function ToFriendlyDateString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString*
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(Date)
+  name.vb: ToFriendlyDateString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  id: ToFriendlyTimeString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToFriendlyTimeString(DateTime)
+  nameWithType: FormattingExtensions.ToFriendlyTimeString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToFriendlyTimeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 122
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a friendly, human-readable time string.
+  example: []
+  syntax:
+    content: public static string ToFriendlyTimeString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    return:
+      type: System.String
+      description: A string representing the time in a friendly format, e.g. "9:45 PM".
+    content.vb: Public Shared Function ToFriendlyTimeString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString*
+  nameWithType.vb: FormattingExtensions.ToFriendlyTimeString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(Date)
+  name.vb: ToFriendlyTimeString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  id: ToFriendlyDateTimeString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToFriendlyDateTimeString(DateTime)
+  nameWithType: FormattingExtensions.ToFriendlyDateTimeString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToFriendlyDateTimeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 137
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a friendly, human-readable date and time string.
+  example: []
+  syntax:
+    content: public static string ToFriendlyDateTimeString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    return:
+      type: System.String
+      description: >-
+        A string representing the date and time in a friendly format,
+
+        e.g. "Monday, December 15, 2025 at 9:45 PM".
+    content.vb: Public Shared Function ToFriendlyDateTimeString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString*
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateTimeString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(Date)
+  name.vb: ToFriendlyDateTimeString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  id: ToRelativeDayString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRelativeDayString(DateTime)
+  nameWithType: FormattingExtensions.ToRelativeDayString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToRelativeDayString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 152
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a relative day string such as "Today", "Tomorrow", or "Yesterday".
+  example: []
+  syntax:
+    content: public static string ToRelativeDayString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the relative day name if the date is today, tomorrow, or yesterday;
+
+        otherwise the date is returned in a friendly format (e.g. "Monday, December 15, 2025").
+    content.vb: Public Shared Function ToRelativeDayString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString*
+  nameWithType.vb: FormattingExtensions.ToRelativeDayString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(Date)
+  name.vb: ToRelativeDayString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  id: ToRelativeWeekString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRelativeWeekString(DateTime)
+  nameWithType: FormattingExtensions.ToRelativeWeekString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToRelativeWeekString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 176
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a relative week string such as "This week", "Next week", or "Last week".
+  example: []
+  syntax:
+    content: public static string ToRelativeWeekString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the relative week name if the date falls in the current, next, or previous week;
+
+        otherwise the week number and year are returned (e.g. "Week 51 of 2025").
+    content.vb: Public Shared Function ToRelativeWeekString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString*
+  nameWithType.vb: FormattingExtensions.ToRelativeWeekString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(Date)
+  name.vb: ToRelativeWeekString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  id: ToQuarterString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToQuarterString(DateTime)
+  nameWithType: FormattingExtensions.ToQuarterString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToQuarterString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 203
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a quarter string such as "Q1 2025".
+  example: []
+  syntax:
+    content: public static string ToQuarterString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the quarter of the year for the given <code class="paramref">dateTime</code>,
+
+        e.g. "Q4 2025".
+    content.vb: Public Shared Function ToQuarterString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString*
+  nameWithType.vb: FormattingExtensions.ToQuarterString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(Date)
+  name.vb: ToQuarterString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  id: ToMonthNameString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToMonthNameString(DateTime)
+  nameWithType: FormattingExtensions.ToMonthNameString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToMonthNameString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 227
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a month name string such as "December 2025".
+  example: []
+  syntax:
+    content: public static string ToMonthNameString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the month name and year for the given <code class="paramref">dateTime</code>,
+
+        e.g. "December 2025".
+    content.vb: Public Shared Function ToMonthNameString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString*
+  nameWithType.vb: FormattingExtensions.ToMonthNameString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(Date)
+  name.vb: ToMonthNameString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  id: ToRelativeMonthString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRelativeMonthString(DateTime)
+  nameWithType: FormattingExtensions.ToRelativeMonthString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToRelativeMonthString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 243
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a relative month string such as "This month", "Next month", or "Last month".
+  example: []
+  syntax:
+    content: public static string ToRelativeMonthString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the relative month name if the date falls in the current, next, or previous month;
+
+        otherwise the month name and year are returned (e.g. "December 2025").
+    content.vb: Public Shared Function ToRelativeMonthString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString*
+  nameWithType.vb: FormattingExtensions.ToRelativeMonthString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(Date)
+  name.vb: ToRelativeMonthString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  id: ToRelativeYearString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRelativeYearString(DateTime)
+  nameWithType: FormattingExtensions.ToRelativeYearString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToRelativeYearString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 267
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a relative year string such as "This year", "Next year", or "Last year".
+  example: []
+  syntax:
+    content: public static string ToRelativeYearString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to evaluate.
+    return:
+      type: System.String
+      description: >-
+        A string representing the relative year name if the date falls in the current, next, or previous year;
+
+        otherwise the year is returned (e.g. "2025").
+    content.vb: Public Shared Function ToRelativeYearString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString*
+  nameWithType.vb: FormattingExtensions.ToRelativeYearString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(Date)
+  name.vb: ToRelativeYearString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  id: ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToFriendlyDateRangeString(DateTime, DateTime)
+  nameWithType: FormattingExtensions.ToFriendlyDateRangeString(DateTime, DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToFriendlyDateRangeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 296
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values into a friendly date range string.
+  example: []
+  syntax:
+    content: public static string ToFriendlyDateRangeString(DateTime startDate, DateTime endDate)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: The starting <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: endDate
+      type: System.DateTime
+      description: The ending <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    return:
+      type: System.String
+      description: >-
+        A string representing the date range in a compact, human-readable format.
+
+        Examples:
+
+        - "Dec 15–17, 2025" (same month and year)
+
+        - "Dec 30, 2025 – Jan 2, 2026" (different months/years)
+    content.vb: Public Shared Function ToFriendlyDateRangeString(startDate As Date, endDate As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString*
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateRangeString(Date, Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(Date, Date)
+  name.vb: ToFriendlyDateRangeString(Date, Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  id: ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToFriendlyTimeRangeString(DateTime, DateTime)
+  nameWithType: FormattingExtensions.ToFriendlyTimeRangeString(DateTime, DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToFriendlyTimeRangeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 333
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values into a friendly time range string.
+  example: []
+  syntax:
+    content: public static string ToFriendlyTimeRangeString(DateTime startTime, DateTime endTime)
+    parameters:
+    - id: startTime
+      type: System.DateTime
+      description: The starting <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: endTime
+      type: System.DateTime
+      description: The ending <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    return:
+      type: System.String
+      description: >-
+        A string representing the time range in a compact, human-readable format.
+
+        Examples:
+
+        - "9:00 AM – 11:30 AM" (same day)
+
+        - "9:00 PM Dec 15 – 1:00 AM Dec 16" (spanning midnight)
+    content.vb: Public Shared Function ToFriendlyTimeRangeString(startTime As Date, endTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString*
+  nameWithType.vb: FormattingExtensions.ToFriendlyTimeRangeString(Date, Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(Date, Date)
+  name.vb: ToFriendlyTimeRangeString(Date, Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  id: ToOrdinalDateString(System.DateTime)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToOrdinalDateString(DateTime)
+  nameWithType: FormattingExtensions.ToOrdinalDateString(DateTime)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToOrdinalDateString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 357
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into an ordinal date string such as "15th December 2025".
+  example: []
+  syntax:
+    content: public static string ToOrdinalDateString(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    return:
+      type: System.String
+      description: >-
+        A string representing the date with an ordinal suffix for the day of the month,
+
+        e.g. "1st January 2026", "2nd February 2026", "3rd March 2026", "15th December 2025".
+    content.vb: Public Shared Function ToOrdinalDateString(dateTime As Date) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString*
+  nameWithType.vb: FormattingExtensions.ToOrdinalDateString(Date)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(Date)
+  name.vb: ToOrdinalDateString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime,System.Boolean)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime,System.Boolean)
+  id: ToOrdinalDateString(System.DateTime,System.Boolean)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToOrdinalDateString(DateTime, bool)
+  nameWithType: FormattingExtensions.ToOrdinalDateString(DateTime, bool)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToOrdinalDateString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 386
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: >-
+    Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into an ordinal date string such as "15th December 2025".
+
+    Supports optional two-digit day formatting (e.g., "01st January 2026").
+  example: []
+  syntax:
+    content: public static string ToOrdinalDateString(this DateTime dateTime, bool twoDigitDateFormat)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    - id: twoDigitDateFormat
+      type: System.Boolean
+      description: >-
+        If true (default), the day will be formatted with two digits (e.g., "01st").
+
+        If false, the day will be formatted without leading zeros (e.g., "1st").
+    return:
+      type: System.String
+      description: >-
+        A string representing the date with an ordinal suffix for the day of the month,
+
+        e.g. "01st January 2026" or "1st January 2026".
+    content.vb: Public Shared Function ToOrdinalDateString(dateTime As Date, twoDigitDateFormat As Boolean) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString*
+  nameWithType.vb: FormattingExtensions.ToOrdinalDateString(Date, Boolean)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(Date, Boolean)
+  name.vb: ToOrdinalDateString(Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  id: ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  isExtensionMethod: true
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToOrdinalWeekdayDateString(DateTime, bool)
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateString(DateTime, bool)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToOrdinalWeekdayDateString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 418
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: >-
+    Converts a <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value into a weekday + ordinal date string 
+
+    such as "Monday, 01st January 2026" or "Monday, 1st January 2026".
+  example: []
+  syntax:
+    content: public static string ToOrdinalWeekdayDateString(this DateTime dateTime, bool twoDigitDateFormat = true)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> value to format.
+    - id: twoDigitDateFormat
+      type: System.Boolean
+      description: >-
+        If true (default), the day will be formatted with two digits (e.g., "01st").
+
+        If false, the day will be formatted without leading zeros (e.g., "1st").
+    return:
+      type: System.String
+      description: A string representing the weekday and date with an ordinal suffix for the day of the month.
+    content.vb: Public Shared Function ToOrdinalWeekdayDateString(dateTime As Date, twoDigitDateFormat As Boolean = True) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString*
+  nameWithType.vb: FormattingExtensions.ToOrdinalWeekdayDateString(Date, Boolean)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(Date, Boolean)
+  name.vb: ToOrdinalWeekdayDateString(Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  id: ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToOrdinalWeekdayDateRangeString(DateTime, DateTime, bool)
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateRangeString(DateTime, DateTime, bool)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime, System.DateTime, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToOrdinalWeekdayDateRangeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 455
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: >-
+    Converts two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values into a weekday + ordinal date range string.
+
+    Examples:
+
+    - "Monday, 15th December 2025 – Wednesday, 17th December 2025"
+
+    - "Thursday, 01st January 2026 – Friday, 02nd January 2026"
+  example: []
+  syntax:
+    content: public static string ToOrdinalWeekdayDateRangeString(DateTime startDate, DateTime endDate, bool twoDigitDateFormat = true)
+    parameters:
+    - id: startDate
+      type: System.DateTime
+      description: The starting <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: endDate
+      type: System.DateTime
+      description: The ending <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: twoDigitDateFormat
+      type: System.Boolean
+      description: >-
+        If true (default), the day will be formatted with two digits (e.g., "01st").
+
+        If false, the day will be formatted without leading zeros (e.g., "1st").
+    return:
+      type: System.String
+      description: A string representing the weekday + ordinal date range.
+    content.vb: Public Shared Function ToOrdinalWeekdayDateRangeString(startDate As Date, endDate As Date, twoDigitDateFormat As Boolean = True) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString*
+  nameWithType.vb: FormattingExtensions.ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+  name.vb: ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  id: ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  nameWithType: FormattingExtensions.ToCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime, System.DateTime, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToCompactOrdinalDateTimeRangeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 497
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: >-
+    Converts two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values into a compact ordinal date + time range string.
+
+    Examples:
+
+    - "15th–17th Dec 2025, 9:00 AM – 5:00 PM"
+
+    - "01st–02nd Jan 2026, 10:00 AM – 11:30 AM"
+  example: []
+  syntax:
+    content: public static string ToCompactOrdinalDateTimeRangeString(DateTime startDateTime, DateTime endDateTime, bool twoDigitDateFormat = true)
+    parameters:
+    - id: startDateTime
+      type: System.DateTime
+      description: The starting <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: endDateTime
+      type: System.DateTime
+      description: The ending <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: twoDigitDateFormat
+      type: System.Boolean
+      description: >-
+        If true (default), the day will be formatted with two digits (e.g., "01st").
+
+        If false, the day will be formatted without leading zeros (e.g., "1st").
+    return:
+      type: System.String
+      description: A compact string representing the ordinal date + time range.
+    content.vb: Public Shared Function ToCompactOrdinalDateTimeRangeString(startDateTime As Date, endDateTime As Date, twoDigitDateFormat As Boolean = True) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString*
+  nameWithType.vb: FormattingExtensions.ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  name.vb: ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  id: ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  parent: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToSuperCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  nameWithType: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime, System.DateTime, bool)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/Extensions/DateAndTime/FormattingExtensions.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: ToSuperCompactOrdinalDateTimeRangeString
+    path: ../Extensions/DateAndTime/FormattingExtensions.cs
+    startLine: 542
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.Extensions.DateAndTime
+  summary: >-
+    Converts two <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> values into a super-compact ordinal date + time range string.
+
+    Examples:
+
+    - "15th–17th Dec, 9–17h"
+
+    - "01st–02nd Jan, 10–11h"
+  example: []
+  syntax:
+    content: public static string ToSuperCompactOrdinalDateTimeRangeString(DateTime startDateTime, DateTime endDateTime, bool twoDigitDateFormat = true)
+    parameters:
+    - id: startDateTime
+      type: System.DateTime
+      description: The starting <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: endDateTime
+      type: System.DateTime
+      description: The ending <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> of the range.
+    - id: twoDigitDateFormat
+      type: System.Boolean
+      description: >-
+        If true (default), the day will be formatted with two digits (e.g., "01st").
+
+        If false, the day will be formatted without leading zeros (e.g., "1st").
+    return:
+      type: System.String
+      description: A super-compact string representing the ordinal date + time range.
+    content.vb: Public Shared Function ToSuperCompactOrdinalDateTimeRangeString(startDateTime As Date, endDateTime As Date, twoDigitDateFormat As Boolean = True) As String
+  overload: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString*
+  nameWithType.vb: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  name.vb: ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+references:
+- uid: UtilityKit.Extensions.DateAndTime
+  commentId: N:UtilityKit.Extensions.DateAndTime
+  href: UtilityKit.html
+  name: UtilityKit.Extensions.DateAndTime
+  nameWithType: UtilityKit.Extensions.DateAndTime
+  fullName: UtilityKit.Extensions.DateAndTime
+  spec.csharp:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Extensions
+    name: Extensions
+    href: UtilityKit.Extensions.html
+  - name: .
+  - uid: UtilityKit.Extensions.DateAndTime
+    name: DateAndTime
+    href: UtilityKit.Extensions.DateAndTime.html
+  spec.vb:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.Extensions
+    name: Extensions
+    href: UtilityKit.Extensions.html
+  - name: .
+  - uid: UtilityKit.Extensions.DateAndTime
+    name: DateAndTime
+    href: UtilityKit.Extensions.DateAndTime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Globalization.Calendar
+  commentId: T:System.Globalization.Calendar
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.calendar
+  name: Calendar
+  nameWithType: Calendar
+  fullName: System.Globalization.Calendar
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeTime_System_DateTime_
+  name: ToRelativeTime
+  nameWithType: FormattingExtensions.ToRelativeTime
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToIso8601String_System_DateTime_
+  name: ToIso8601String
+  nameWithType: FormattingExtensions.ToIso8601String
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToUnixTimestamp_System_DateTime_
+  name: ToUnixTimestamp
+  nameWithType: FormattingExtensions.ToUnixTimestamp
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_FromUnixTimestamp_System_Int64_
+  name: FromUnixTimestamp
+  nameWithType: FormattingExtensions.FromUnixTimestamp
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateString_System_DateTime_
+  name: ToFriendlyDateString
+  nameWithType: FormattingExtensions.ToFriendlyDateString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeString_System_DateTime_
+  name: ToFriendlyTimeString
+  nameWithType: FormattingExtensions.ToFriendlyTimeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateTimeString_System_DateTime_
+  name: ToFriendlyDateTimeString
+  nameWithType: FormattingExtensions.ToFriendlyDateTimeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeDayString_System_DateTime_
+  name: ToRelativeDayString
+  nameWithType: FormattingExtensions.ToRelativeDayString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeWeekString_System_DateTime_
+  name: ToRelativeWeekString
+  nameWithType: FormattingExtensions.ToRelativeWeekString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToQuarterString_System_DateTime_
+  name: ToQuarterString
+  nameWithType: FormattingExtensions.ToQuarterString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToMonthNameString_System_DateTime_
+  name: ToMonthNameString
+  nameWithType: FormattingExtensions.ToMonthNameString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeMonthString_System_DateTime_
+  name: ToRelativeMonthString
+  nameWithType: FormattingExtensions.ToRelativeMonthString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeYearString_System_DateTime_
+  name: ToRelativeYearString
+  nameWithType: FormattingExtensions.ToRelativeYearString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateRangeString_System_DateTime_System_DateTime_
+  name: ToFriendlyDateRangeString
+  nameWithType: FormattingExtensions.ToFriendlyDateRangeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeRangeString_System_DateTime_System_DateTime_
+  name: ToFriendlyTimeRangeString
+  nameWithType: FormattingExtensions.ToFriendlyTimeRangeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalDateString_System_DateTime_
+  name: ToOrdinalDateString
+  nameWithType: FormattingExtensions.ToOrdinalDateString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateString_System_DateTime_System_Boolean_
+  name: ToOrdinalWeekdayDateString
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateRangeString_System_DateTime_System_DateTime_System_Boolean_
+  name: ToOrdinalWeekdayDateRangeString
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateRangeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToCompactOrdinalDateTimeRangeString_System_DateTime_System_DateTime_System_Boolean_
+  name: ToCompactOrdinalDateTimeRangeString
+  nameWithType: FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString*
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToSuperCompactOrdinalDateTimeRangeString_System_DateTime_System_DateTime_System_Boolean_
+  name: ToSuperCompactOrdinalDateTimeRangeString
+  nameWithType: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString

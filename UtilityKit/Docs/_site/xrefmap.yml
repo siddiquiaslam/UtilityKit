@@ -1,0 +1,1617 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: UtilityKit.Crypto
+  name: UtilityKit.Crypto
+  href: api/UtilityKit.Crypto.html
+  commentId: N:UtilityKit.Crypto
+  fullName: UtilityKit.Crypto
+  nameWithType: UtilityKit.Crypto
+- uid: UtilityKit.Crypto.AesEncryptionService
+  name: AesEncryptionService
+  href: api/UtilityKit.Crypto.AesEncryptionService.html
+  commentId: T:UtilityKit.Crypto.AesEncryptionService
+  fullName: UtilityKit.Crypto.AesEncryptionService
+  nameWithType: AesEncryptionService
+- uid: UtilityKit.Crypto.AesEncryptionService.#ctor(System.Byte[])
+  name: AesEncryptionService(byte[])
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService__ctor_System_Byte___
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.#ctor(System.Byte[])
+  name.vb: New(Byte())
+  fullName: UtilityKit.Crypto.AesEncryptionService.AesEncryptionService(byte[])
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.New(Byte())
+  nameWithType: AesEncryptionService.AesEncryptionService(byte[])
+  nameWithType.vb: AesEncryptionService.New(Byte())
+- uid: UtilityKit.Crypto.AesEncryptionService.#ctor*
+  name: AesEncryptionService
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService__ctor_
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UtilityKit.Crypto.AesEncryptionService.AesEncryptionService
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.New
+  nameWithType: AesEncryptionService.AesEncryptionService
+  nameWithType.vb: AesEncryptionService.New
+- uid: UtilityKit.Crypto.AesEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(byte[], byte[])
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Decrypt_System_Byte___System_Byte___
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: UtilityKit.Crypto.AesEncryptionService.Decrypt(byte[], byte[])
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.Decrypt(Byte(), Byte())
+  nameWithType: AesEncryptionService.Decrypt(byte[], byte[])
+  nameWithType.vb: AesEncryptionService.Decrypt(Byte(), Byte())
+- uid: UtilityKit.Crypto.AesEncryptionService.Decrypt*
+  name: Decrypt
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Decrypt_
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.Decrypt
+  isSpec: "True"
+  fullName: UtilityKit.Crypto.AesEncryptionService.Decrypt
+  nameWithType: AesEncryptionService.Decrypt
+- uid: UtilityKit.Crypto.AesEncryptionService.Encrypt(System.String)
+  name: Encrypt(string)
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Encrypt_System_String_
+  commentId: M:UtilityKit.Crypto.AesEncryptionService.Encrypt(System.String)
+  name.vb: Encrypt(String)
+  fullName: UtilityKit.Crypto.AesEncryptionService.Encrypt(string)
+  fullName.vb: UtilityKit.Crypto.AesEncryptionService.Encrypt(String)
+  nameWithType: AesEncryptionService.Encrypt(string)
+  nameWithType.vb: AesEncryptionService.Encrypt(String)
+- uid: UtilityKit.Crypto.AesEncryptionService.Encrypt*
+  name: Encrypt
+  href: api/UtilityKit.Crypto.AesEncryptionService.html#UtilityKit_Crypto_AesEncryptionService_Encrypt_
+  commentId: Overload:UtilityKit.Crypto.AesEncryptionService.Encrypt
+  isSpec: "True"
+  fullName: UtilityKit.Crypto.AesEncryptionService.Encrypt
+  nameWithType: AesEncryptionService.Encrypt
+- uid: UtilityKit.Crypto.IEncryptionService
+  name: IEncryptionService
+  href: api/UtilityKit.Crypto.IEncryptionService.html
+  commentId: T:UtilityKit.Crypto.IEncryptionService
+  fullName: UtilityKit.Crypto.IEncryptionService
+  nameWithType: IEncryptionService
+- uid: UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(byte[], byte[])
+  href: api/UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_System_Byte___System_Byte___
+  commentId: M:UtilityKit.Crypto.IEncryptionService.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: UtilityKit.Crypto.IEncryptionService.Decrypt(byte[], byte[])
+  fullName.vb: UtilityKit.Crypto.IEncryptionService.Decrypt(Byte(), Byte())
+  nameWithType: IEncryptionService.Decrypt(byte[], byte[])
+  nameWithType.vb: IEncryptionService.Decrypt(Byte(), Byte())
+- uid: UtilityKit.Crypto.IEncryptionService.Decrypt*
+  name: Decrypt
+  href: api/UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Decrypt_
+  commentId: Overload:UtilityKit.Crypto.IEncryptionService.Decrypt
+  isSpec: "True"
+  fullName: UtilityKit.Crypto.IEncryptionService.Decrypt
+  nameWithType: IEncryptionService.Decrypt
+- uid: UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+  name: Encrypt(string)
+  href: api/UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_System_String_
+  commentId: M:UtilityKit.Crypto.IEncryptionService.Encrypt(System.String)
+  name.vb: Encrypt(String)
+  fullName: UtilityKit.Crypto.IEncryptionService.Encrypt(string)
+  fullName.vb: UtilityKit.Crypto.IEncryptionService.Encrypt(String)
+  nameWithType: IEncryptionService.Encrypt(string)
+  nameWithType.vb: IEncryptionService.Encrypt(String)
+- uid: UtilityKit.Crypto.IEncryptionService.Encrypt*
+  name: Encrypt
+  href: api/UtilityKit.Crypto.IEncryptionService.html#UtilityKit_Crypto_IEncryptionService_Encrypt_
+  commentId: Overload:UtilityKit.Crypto.IEncryptionService.Encrypt
+  isSpec: "True"
+  fullName: UtilityKit.Crypto.IEncryptionService.Encrypt
+  nameWithType: IEncryptionService.Encrypt
+- uid: UtilityKit.DX
+  name: UtilityKit.DX
+  href: api/UtilityKit.DX.html
+  commentId: N:UtilityKit.DX
+  fullName: UtilityKit.DX
+  nameWithType: UtilityKit.DX
+- uid: UtilityKit.DX.Ensure
+  name: Ensure
+  href: api/UtilityKit.DX.Ensure.html
+  commentId: T:UtilityKit.DX.Ensure
+  fullName: UtilityKit.DX.Ensure
+  nameWithType: Ensure
+- uid: UtilityKit.DX.Ensure.That*
+  name: That
+  href: api/UtilityKit.DX.Ensure.html#UtilityKit_DX_Ensure_That_
+  commentId: Overload:UtilityKit.DX.Ensure.That
+  isSpec: "True"
+  fullName: UtilityKit.DX.Ensure.That
+  nameWithType: Ensure.That
+- uid: UtilityKit.DX.Ensure.That``1(``0,System.String)
+  name: That<T>(T, string)
+  href: api/UtilityKit.DX.Ensure.html#UtilityKit_DX_Ensure_That__1___0_System_String_
+  commentId: M:UtilityKit.DX.Ensure.That``1(``0,System.String)
+  name.vb: That(Of T)(T, String)
+  fullName: UtilityKit.DX.Ensure.That<T>(T, string)
+  fullName.vb: UtilityKit.DX.Ensure.That(Of T)(T, String)
+  nameWithType: Ensure.That<T>(T, string)
+  nameWithType.vb: Ensure.That(Of T)(T, String)
+- uid: UtilityKit.DX.EnsureBuilder`1
+  name: EnsureBuilder<T>
+  href: api/UtilityKit.DX.EnsureBuilder-1.html
+  commentId: T:UtilityKit.DX.EnsureBuilder`1
+  name.vb: EnsureBuilder(Of T)
+  fullName: UtilityKit.DX.EnsureBuilder<T>
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T)
+  nameWithType: EnsureBuilder<T>
+  nameWithType.vb: EnsureBuilder(Of T)
+- uid: UtilityKit.DX.EnsureBuilder`1.#ctor(`0,System.String)
+  name: EnsureBuilder(T, string)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1__ctor__0_System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.#ctor(`0,System.String)
+  name.vb: New(T, String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.EnsureBuilder(T, string)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).New(T, String)
+  nameWithType: EnsureBuilder<T>.EnsureBuilder(T, string)
+  nameWithType.vb: EnsureBuilder(Of T).New(T, String)
+- uid: UtilityKit.DX.EnsureBuilder`1.#ctor*
+  name: EnsureBuilder
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1__ctor_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UtilityKit.DX.EnsureBuilder<T>.EnsureBuilder
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).New
+  nameWithType: EnsureBuilder<T>.EnsureBuilder
+  nameWithType.vb: EnsureBuilder(Of T).New
+- uid: UtilityKit.DX.EnsureBuilder`1.Any(System.String)
+  name: Any(string?)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Any_System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.Any(System.String)
+  name.vb: Any(String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Any(string?)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Any(String)
+  nameWithType: EnsureBuilder<T>.Any(string?)
+  nameWithType.vb: EnsureBuilder(Of T).Any(String)
+- uid: UtilityKit.DX.EnsureBuilder`1.Any*
+  name: Any
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Any_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.Any
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Any
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Any
+  nameWithType: EnsureBuilder<T>.Any
+  nameWithType.vb: EnsureBuilder(Of T).Any
+- uid: UtilityKit.DX.EnsureBuilder`1.InRange(System.Int32,System.Int32,System.String)
+  name: InRange(int, int, string?)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_InRange_System_Int32_System_Int32_System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.InRange(System.Int32,System.Int32,System.String)
+  name.vb: InRange(Integer, Integer, String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.InRange(int, int, string?)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).InRange(Integer, Integer, String)
+  nameWithType: EnsureBuilder<T>.InRange(int, int, string?)
+  nameWithType.vb: EnsureBuilder(Of T).InRange(Integer, Integer, String)
+- uid: UtilityKit.DX.EnsureBuilder`1.InRange*
+  name: InRange
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_InRange_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.InRange
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.InRange
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).InRange
+  nameWithType: EnsureBuilder<T>.InRange
+  nameWithType.vb: EnsureBuilder(Of T).InRange
+- uid: UtilityKit.DX.EnsureBuilder`1.NotEmpty(System.String)
+  name: NotEmpty(string?)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_NotEmpty_System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.NotEmpty(System.String)
+  name.vb: NotEmpty(String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.NotEmpty(string?)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).NotEmpty(String)
+  nameWithType: EnsureBuilder<T>.NotEmpty(string?)
+  nameWithType.vb: EnsureBuilder(Of T).NotEmpty(String)
+- uid: UtilityKit.DX.EnsureBuilder`1.NotEmpty*
+  name: NotEmpty
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_NotEmpty_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.NotEmpty
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.NotEmpty
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).NotEmpty
+  nameWithType: EnsureBuilder<T>.NotEmpty
+  nameWithType.vb: EnsureBuilder(Of T).NotEmpty
+- uid: UtilityKit.DX.EnsureBuilder`1.NotNull(System.String)
+  name: NotNull(string?)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_NotNull_System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.NotNull(System.String)
+  name.vb: NotNull(String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.NotNull(string?)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).NotNull(String)
+  nameWithType: EnsureBuilder<T>.NotNull(string?)
+  nameWithType.vb: EnsureBuilder(Of T).NotNull(String)
+- uid: UtilityKit.DX.EnsureBuilder`1.NotNull*
+  name: NotNull
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_NotNull_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.NotNull
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.NotNull
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).NotNull
+  nameWithType: EnsureBuilder<T>.NotNull
+  nameWithType.vb: EnsureBuilder(Of T).NotNull
+- uid: UtilityKit.DX.EnsureBuilder`1.Result
+  name: Result
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Result
+  commentId: P:UtilityKit.DX.EnsureBuilder`1.Result
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Result
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Result
+  nameWithType: EnsureBuilder<T>.Result
+  nameWithType.vb: EnsureBuilder(Of T).Result
+- uid: UtilityKit.DX.EnsureBuilder`1.Result*
+  name: Result
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Result_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.Result
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Result
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Result
+  nameWithType: EnsureBuilder<T>.Result
+  nameWithType.vb: EnsureBuilder(Of T).Result
+- uid: UtilityKit.DX.EnsureBuilder`1.Satisfies(System.Func{`0,System.Boolean},System.String)
+  name: Satisfies(Func<T, bool>, string)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Satisfies_System_Func__0_System_Boolean__System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.Satisfies(System.Func{`0,System.Boolean},System.String)
+  name.vb: Satisfies(Func(Of T, Boolean), String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Satisfies(System.Func<T, bool>, string)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Satisfies(System.Func(Of T, Boolean), String)
+  nameWithType: EnsureBuilder<T>.Satisfies(Func<T, bool>, string)
+  nameWithType.vb: EnsureBuilder(Of T).Satisfies(Func(Of T, Boolean), String)
+- uid: UtilityKit.DX.EnsureBuilder`1.Satisfies*
+  name: Satisfies
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_Satisfies_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.Satisfies
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.Satisfies
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).Satisfies
+  nameWithType: EnsureBuilder<T>.Satisfies
+  nameWithType.vb: EnsureBuilder(Of T).Satisfies
+- uid: UtilityKit.DX.EnsureBuilder`1.True(System.Func{`0,System.Boolean},System.String)
+  name: True(Func<T, bool>, string)
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_True_System_Func__0_System_Boolean__System_String_
+  commentId: M:UtilityKit.DX.EnsureBuilder`1.True(System.Func{`0,System.Boolean},System.String)
+  name.vb: True(Func(Of T, Boolean), String)
+  fullName: UtilityKit.DX.EnsureBuilder<T>.True(System.Func<T, bool>, string)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).True(System.Func(Of T, Boolean), String)
+  nameWithType: EnsureBuilder<T>.True(Func<T, bool>, string)
+  nameWithType.vb: EnsureBuilder(Of T).True(Func(Of T, Boolean), String)
+- uid: UtilityKit.DX.EnsureBuilder`1.True*
+  name: "True"
+  href: api/UtilityKit.DX.EnsureBuilder-1.html#UtilityKit_DX_EnsureBuilder_1_True_
+  commentId: Overload:UtilityKit.DX.EnsureBuilder`1.True
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureBuilder<T>.True
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T).True
+  nameWithType: EnsureBuilder<T>.True
+  nameWithType.vb: EnsureBuilder(Of T).True
+- uid: UtilityKit.DX.EnsureResult
+  name: EnsureResult
+  href: api/UtilityKit.DX.EnsureResult.html
+  commentId: T:UtilityKit.DX.EnsureResult
+  fullName: UtilityKit.DX.EnsureResult
+  nameWithType: EnsureResult
+- uid: UtilityKit.DX.EnsureResult.#ctor(System.Boolean,System.String)
+  name: EnsureResult(bool, string)
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult__ctor_System_Boolean_System_String_
+  commentId: M:UtilityKit.DX.EnsureResult.#ctor(System.Boolean,System.String)
+  name.vb: New(Boolean, String)
+  fullName: UtilityKit.DX.EnsureResult.EnsureResult(bool, string)
+  fullName.vb: UtilityKit.DX.EnsureResult.New(Boolean, String)
+  nameWithType: EnsureResult.EnsureResult(bool, string)
+  nameWithType.vb: EnsureResult.New(Boolean, String)
+- uid: UtilityKit.DX.EnsureResult.#ctor*
+  name: EnsureResult
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult__ctor_
+  commentId: Overload:UtilityKit.DX.EnsureResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UtilityKit.DX.EnsureResult.EnsureResult
+  fullName.vb: UtilityKit.DX.EnsureResult.New
+  nameWithType: EnsureResult.EnsureResult
+  nameWithType.vb: EnsureResult.New
+- uid: UtilityKit.DX.EnsureResult.Fail(System.String)
+  name: Fail(string)
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Fail_System_String_
+  commentId: M:UtilityKit.DX.EnsureResult.Fail(System.String)
+  name.vb: Fail(String)
+  fullName: UtilityKit.DX.EnsureResult.Fail(string)
+  fullName.vb: UtilityKit.DX.EnsureResult.Fail(String)
+  nameWithType: EnsureResult.Fail(string)
+  nameWithType.vb: EnsureResult.Fail(String)
+- uid: UtilityKit.DX.EnsureResult.Fail*
+  name: Fail
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Fail_
+  commentId: Overload:UtilityKit.DX.EnsureResult.Fail
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureResult.Fail
+  nameWithType: EnsureResult.Fail
+- uid: UtilityKit.DX.EnsureResult.IsValid
+  name: IsValid
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_IsValid
+  commentId: P:UtilityKit.DX.EnsureResult.IsValid
+  fullName: UtilityKit.DX.EnsureResult.IsValid
+  nameWithType: EnsureResult.IsValid
+- uid: UtilityKit.DX.EnsureResult.IsValid*
+  name: IsValid
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_IsValid_
+  commentId: Overload:UtilityKit.DX.EnsureResult.IsValid
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureResult.IsValid
+  nameWithType: EnsureResult.IsValid
+- uid: UtilityKit.DX.EnsureResult.Message
+  name: Message
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Message
+  commentId: P:UtilityKit.DX.EnsureResult.Message
+  fullName: UtilityKit.DX.EnsureResult.Message
+  nameWithType: EnsureResult.Message
+- uid: UtilityKit.DX.EnsureResult.Message*
+  name: Message
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Message_
+  commentId: Overload:UtilityKit.DX.EnsureResult.Message
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureResult.Message
+  nameWithType: EnsureResult.Message
+- uid: UtilityKit.DX.EnsureResult.Success
+  name: Success
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Success
+  commentId: P:UtilityKit.DX.EnsureResult.Success
+  fullName: UtilityKit.DX.EnsureResult.Success
+  nameWithType: EnsureResult.Success
+- uid: UtilityKit.DX.EnsureResult.Success*
+  name: Success
+  href: api/UtilityKit.DX.EnsureResult.html#UtilityKit_DX_EnsureResult_Success_
+  commentId: Overload:UtilityKit.DX.EnsureResult.Success
+  isSpec: "True"
+  fullName: UtilityKit.DX.EnsureResult.Success
+  nameWithType: EnsureResult.Success
+- uid: UtilityKit.Extensions.DateAndTime
+  name: UtilityKit.Extensions.DateAndTime
+  href: api/UtilityKit.Extensions.DateAndTime.html
+  commentId: N:UtilityKit.Extensions.DateAndTime
+  fullName: UtilityKit.Extensions.DateAndTime
+  nameWithType: UtilityKit.Extensions.DateAndTime
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  name: FormattingExtensions
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html
+  commentId: T:UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  nameWithType: FormattingExtensions
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(System.Int64)
+  name: FromUnixTimestamp(long)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_FromUnixTimestamp_System_Int64_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(System.Int64)
+  name.vb: FromUnixTimestamp(Long)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(long)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp(Long)
+  nameWithType: FormattingExtensions.FromUnixTimestamp(long)
+  nameWithType.vb: FormattingExtensions.FromUnixTimestamp(Long)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp*
+  name: FromUnixTimestamp
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_FromUnixTimestamp_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.FromUnixTimestamp
+  nameWithType: FormattingExtensions.FromUnixTimestamp
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name: ToCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToCompactOrdinalDateTimeRangeString_System_DateTime_System_DateTime_System_Boolean_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name.vb: ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(System.DateTime, System.DateTime, bool)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  nameWithType: FormattingExtensions.ToCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  nameWithType.vb: FormattingExtensions.ToCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString*
+  name: ToCompactOrdinalDateTimeRangeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToCompactOrdinalDateTimeRangeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+  nameWithType: FormattingExtensions.ToCompactOrdinalDateTimeRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  name: ToFriendlyDateRangeString(DateTime, DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateRangeString_System_DateTime_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime,System.DateTime)
+  name.vb: ToFriendlyDateRangeString(Date, Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(System.DateTime, System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString(Date, Date)
+  nameWithType: FormattingExtensions.ToFriendlyDateRangeString(DateTime, DateTime)
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateRangeString(Date, Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString*
+  name: ToFriendlyDateRangeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateRangeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateRangeString
+  nameWithType: FormattingExtensions.ToFriendlyDateRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  name: ToFriendlyDateString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  name.vb: ToFriendlyDateString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString(Date)
+  nameWithType: FormattingExtensions.ToFriendlyDateString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString*
+  name: ToFriendlyDateString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateString
+  nameWithType: FormattingExtensions.ToFriendlyDateString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  name: ToFriendlyDateTimeString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateTimeString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  name.vb: ToFriendlyDateTimeString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString(Date)
+  nameWithType: FormattingExtensions.ToFriendlyDateTimeString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToFriendlyDateTimeString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString*
+  name: ToFriendlyDateTimeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyDateTimeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyDateTimeString
+  nameWithType: FormattingExtensions.ToFriendlyDateTimeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  name: ToFriendlyTimeRangeString(DateTime, DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeRangeString_System_DateTime_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime,System.DateTime)
+  name.vb: ToFriendlyTimeRangeString(Date, Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(System.DateTime, System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString(Date, Date)
+  nameWithType: FormattingExtensions.ToFriendlyTimeRangeString(DateTime, DateTime)
+  nameWithType.vb: FormattingExtensions.ToFriendlyTimeRangeString(Date, Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString*
+  name: ToFriendlyTimeRangeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeRangeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeRangeString
+  nameWithType: FormattingExtensions.ToFriendlyTimeRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  name: ToFriendlyTimeString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  name.vb: ToFriendlyTimeString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString(Date)
+  nameWithType: FormattingExtensions.ToFriendlyTimeString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToFriendlyTimeString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString*
+  name: ToFriendlyTimeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToFriendlyTimeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToFriendlyTimeString
+  nameWithType: FormattingExtensions.ToFriendlyTimeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  name: ToIso8601String(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToIso8601String_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  name.vb: ToIso8601String(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String(Date)
+  nameWithType: FormattingExtensions.ToIso8601String(DateTime)
+  nameWithType.vb: FormattingExtensions.ToIso8601String(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String*
+  name: ToIso8601String
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToIso8601String_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToIso8601String
+  nameWithType: FormattingExtensions.ToIso8601String
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  name: ToMonthNameString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToMonthNameString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  name.vb: ToMonthNameString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString(Date)
+  nameWithType: FormattingExtensions.ToMonthNameString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToMonthNameString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString*
+  name: ToMonthNameString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToMonthNameString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToMonthNameString
+  nameWithType: FormattingExtensions.ToMonthNameString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  name: ToOrdinalDateString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalDateString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  name.vb: ToOrdinalDateString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(Date)
+  nameWithType: FormattingExtensions.ToOrdinalDateString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToOrdinalDateString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime,System.Boolean)
+  name: ToOrdinalDateString(DateTime, bool)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalDateString_System_DateTime_System_Boolean_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime,System.Boolean)
+  name.vb: ToOrdinalDateString(Date, Boolean)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(System.DateTime, bool)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString(Date, Boolean)
+  nameWithType: FormattingExtensions.ToOrdinalDateString(DateTime, bool)
+  nameWithType.vb: FormattingExtensions.ToOrdinalDateString(Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString*
+  name: ToOrdinalDateString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalDateString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalDateString
+  nameWithType: FormattingExtensions.ToOrdinalDateString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name: ToOrdinalWeekdayDateRangeString(DateTime, DateTime, bool)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateRangeString_System_DateTime_System_DateTime_System_Boolean_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name.vb: ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(System.DateTime, System.DateTime, bool)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateRangeString(DateTime, DateTime, bool)
+  nameWithType.vb: FormattingExtensions.ToOrdinalWeekdayDateRangeString(Date, Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString*
+  name: ToOrdinalWeekdayDateRangeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateRangeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateRangeString
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  name: ToOrdinalWeekdayDateString(DateTime, bool)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateString_System_DateTime_System_Boolean_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime,System.Boolean)
+  name.vb: ToOrdinalWeekdayDateString(Date, Boolean)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(System.DateTime, bool)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString(Date, Boolean)
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateString(DateTime, bool)
+  nameWithType.vb: FormattingExtensions.ToOrdinalWeekdayDateString(Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString*
+  name: ToOrdinalWeekdayDateString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToOrdinalWeekdayDateString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToOrdinalWeekdayDateString
+  nameWithType: FormattingExtensions.ToOrdinalWeekdayDateString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  name: ToQuarterString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToQuarterString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  name.vb: ToQuarterString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString(Date)
+  nameWithType: FormattingExtensions.ToQuarterString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToQuarterString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString*
+  name: ToQuarterString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToQuarterString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToQuarterString
+  nameWithType: FormattingExtensions.ToQuarterString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  name: ToRelativeDayString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeDayString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  name.vb: ToRelativeDayString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString(Date)
+  nameWithType: FormattingExtensions.ToRelativeDayString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToRelativeDayString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString*
+  name: ToRelativeDayString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeDayString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeDayString
+  nameWithType: FormattingExtensions.ToRelativeDayString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  name: ToRelativeMonthString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeMonthString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  name.vb: ToRelativeMonthString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString(Date)
+  nameWithType: FormattingExtensions.ToRelativeMonthString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToRelativeMonthString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString*
+  name: ToRelativeMonthString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeMonthString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeMonthString
+  nameWithType: FormattingExtensions.ToRelativeMonthString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  name: ToRelativeTime(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeTime_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  name.vb: ToRelativeTime(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime(Date)
+  nameWithType: FormattingExtensions.ToRelativeTime(DateTime)
+  nameWithType.vb: FormattingExtensions.ToRelativeTime(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime*
+  name: ToRelativeTime
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeTime_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeTime
+  nameWithType: FormattingExtensions.ToRelativeTime
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  name: ToRelativeWeekString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeWeekString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  name.vb: ToRelativeWeekString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString(Date)
+  nameWithType: FormattingExtensions.ToRelativeWeekString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToRelativeWeekString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString*
+  name: ToRelativeWeekString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeWeekString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeWeekString
+  nameWithType: FormattingExtensions.ToRelativeWeekString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  name: ToRelativeYearString(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeYearString_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  name.vb: ToRelativeYearString(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString(Date)
+  nameWithType: FormattingExtensions.ToRelativeYearString(DateTime)
+  nameWithType.vb: FormattingExtensions.ToRelativeYearString(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString*
+  name: ToRelativeYearString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToRelativeYearString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToRelativeYearString
+  nameWithType: FormattingExtensions.ToRelativeYearString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name: ToSuperCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToSuperCompactOrdinalDateTimeRangeString_System_DateTime_System_DateTime_System_Boolean_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime,System.DateTime,System.Boolean)
+  name.vb: ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(System.DateTime, System.DateTime, bool)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+  nameWithType: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(DateTime, DateTime, bool)
+  nameWithType.vb: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString(Date, Date, Boolean)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString*
+  name: ToSuperCompactOrdinalDateTimeRangeString
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToSuperCompactOrdinalDateTimeRangeString_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString
+  nameWithType: FormattingExtensions.ToSuperCompactOrdinalDateTimeRangeString
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  name: ToUnixTimestamp(DateTime)
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToUnixTimestamp_System_DateTime_
+  commentId: M:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  name.vb: ToUnixTimestamp(Date)
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(System.DateTime)
+  fullName.vb: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp(Date)
+  nameWithType: FormattingExtensions.ToUnixTimestamp(DateTime)
+  nameWithType.vb: FormattingExtensions.ToUnixTimestamp(Date)
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp*
+  name: ToUnixTimestamp
+  href: api/UtilityKit.Extensions.DateAndTime.FormattingExtensions.html#UtilityKit_Extensions_DateAndTime_FormattingExtensions_ToUnixTimestamp_
+  commentId: Overload:UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions.ToUnixTimestamp
+  nameWithType: FormattingExtensions.ToUnixTimestamp
+- uid: UtilityKit.Extensions.String
+  name: UtilityKit.Extensions.String
+  href: api/UtilityKit.Extensions.String.html
+  commentId: N:UtilityKit.Extensions.String
+  fullName: UtilityKit.Extensions.String
+  nameWithType: UtilityKit.Extensions.String
+- uid: UtilityKit.Extensions.String.CollectionExtensions
+  name: CollectionExtensions
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html
+  commentId: T:UtilityKit.Extensions.String.CollectionExtensions
+  fullName: UtilityKit.Extensions.String.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: UtilityKit.Extensions.String.CollectionExtensions.FirstLine(System.String)
+  name: FirstLine(string)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_FirstLine_System_String_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.FirstLine(System.String)
+  name.vb: FirstLine(String)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.FirstLine(string)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.FirstLine(String)
+  nameWithType: CollectionExtensions.FirstLine(string)
+  nameWithType.vb: CollectionExtensions.FirstLine(String)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.FirstLine*
+  name: FirstLine
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_FirstLine_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.FirstLine
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.FirstLine
+  nameWithType: CollectionExtensions.FirstLine
+- uid: UtilityKit.Extensions.String.CollectionExtensions.GetWords(System.String,System.Boolean)
+  name: GetWords(string, bool)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_GetWords_System_String_System_Boolean_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.GetWords(System.String,System.Boolean)
+  name.vb: GetWords(String, Boolean)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.GetWords(string, bool)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.GetWords(String, Boolean)
+  nameWithType: CollectionExtensions.GetWords(string, bool)
+  nameWithType.vb: CollectionExtensions.GetWords(String, Boolean)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.GetWords*
+  name: GetWords
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_GetWords_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.GetWords
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.GetWords
+  nameWithType: CollectionExtensions.GetWords
+- uid: UtilityKit.Extensions.String.CollectionExtensions.Interpolate(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Boolean)
+  name: Interpolate(string, IDictionary<string, string>, bool)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_Interpolate_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Boolean_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.Interpolate(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Boolean)
+  name.vb: Interpolate(String, IDictionary(Of String, String), Boolean)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.Interpolate(string, System.Collections.Generic.IDictionary<string, string>, bool)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.Interpolate(String, System.Collections.Generic.IDictionary(Of String, String), Boolean)
+  nameWithType: CollectionExtensions.Interpolate(string, IDictionary<string, string>, bool)
+  nameWithType.vb: CollectionExtensions.Interpolate(String, IDictionary(Of String, String), Boolean)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.Interpolate*
+  name: Interpolate
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_Interpolate_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.Interpolate
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.Interpolate
+  nameWithType: CollectionExtensions.Interpolate
+- uid: UtilityKit.Extensions.String.CollectionExtensions.LastLine(System.String)
+  name: LastLine(string)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_LastLine_System_String_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.LastLine(System.String)
+  name.vb: LastLine(String)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.LastLine(string)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.LastLine(String)
+  nameWithType: CollectionExtensions.LastLine(string)
+  nameWithType.vb: CollectionExtensions.LastLine(String)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.LastLine*
+  name: LastLine
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_LastLine_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.LastLine
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.LastLine
+  nameWithType: CollectionExtensions.LastLine
+- uid: UtilityKit.Extensions.String.CollectionExtensions.OrDefault(System.String,System.String)
+  name: OrDefault(string?, string)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_OrDefault_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.OrDefault(System.String,System.String)
+  name.vb: OrDefault(String, String)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.OrDefault(string?, string)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.OrDefault(String, String)
+  nameWithType: CollectionExtensions.OrDefault(string?, string)
+  nameWithType.vb: CollectionExtensions.OrDefault(String, String)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.OrDefault*
+  name: OrDefault
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_OrDefault_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.OrDefault
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.OrDefault
+  nameWithType: CollectionExtensions.OrDefault
+- uid: UtilityKit.Extensions.String.CollectionExtensions.SplitLines(System.String)
+  name: SplitLines(string)
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_SplitLines_System_String_
+  commentId: M:UtilityKit.Extensions.String.CollectionExtensions.SplitLines(System.String)
+  name.vb: SplitLines(String)
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.SplitLines(string)
+  fullName.vb: UtilityKit.Extensions.String.CollectionExtensions.SplitLines(String)
+  nameWithType: CollectionExtensions.SplitLines(string)
+  nameWithType.vb: CollectionExtensions.SplitLines(String)
+- uid: UtilityKit.Extensions.String.CollectionExtensions.SplitLines*
+  name: SplitLines
+  href: api/UtilityKit.Extensions.String.CollectionExtensions.html#UtilityKit_Extensions_String_CollectionExtensions_SplitLines_
+  commentId: Overload:UtilityKit.Extensions.String.CollectionExtensions.SplitLines
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.CollectionExtensions.SplitLines
+  nameWithType: CollectionExtensions.SplitLines
+- uid: UtilityKit.Extensions.String.EncodingExtensions
+  name: EncodingExtensions
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html
+  commentId: T:UtilityKit.Extensions.String.EncodingExtensions
+  fullName: UtilityKit.Extensions.String.EncodingExtensions
+  nameWithType: EncodingExtensions
+- uid: UtilityKit.Extensions.String.EncodingExtensions.FromBase64(System.String,System.Text.Encoding)
+  name: FromBase64(string, Encoding?)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_FromBase64_System_String_System_Text_Encoding_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.FromBase64(System.String,System.Text.Encoding)
+  name.vb: FromBase64(String, Encoding)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.FromBase64(string, System.Text.Encoding?)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.FromBase64(String, System.Text.Encoding)
+  nameWithType: EncodingExtensions.FromBase64(string, Encoding?)
+  nameWithType.vb: EncodingExtensions.FromBase64(String, Encoding)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.FromBase64*
+  name: FromBase64
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_FromBase64_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.FromBase64
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.FromBase64
+  nameWithType: EncodingExtensions.FromBase64
+- uid: UtilityKit.Extensions.String.EncodingExtensions.FromHex(System.String,System.Text.Encoding)
+  name: FromHex(string, Encoding?)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_FromHex_System_String_System_Text_Encoding_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.FromHex(System.String,System.Text.Encoding)
+  name.vb: FromHex(String, Encoding)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.FromHex(string, System.Text.Encoding?)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.FromHex(String, System.Text.Encoding)
+  nameWithType: EncodingExtensions.FromHex(string, Encoding?)
+  nameWithType.vb: EncodingExtensions.FromHex(String, Encoding)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.FromHex*
+  name: FromHex
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_FromHex_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.FromHex
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.FromHex
+  nameWithType: EncodingExtensions.FromHex
+- uid: UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode(System.String)
+  name: HtmlDecode(string)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_HtmlDecode_System_String_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode(System.String)
+  name.vb: HtmlDecode(String)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode(string)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode(String)
+  nameWithType: EncodingExtensions.HtmlDecode(string)
+  nameWithType.vb: EncodingExtensions.HtmlDecode(String)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode*
+  name: HtmlDecode
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_HtmlDecode_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.HtmlDecode
+  nameWithType: EncodingExtensions.HtmlDecode
+- uid: UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode(System.String)
+  name: HtmlEncode(string)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_HtmlEncode_System_String_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode(System.String)
+  name.vb: HtmlEncode(String)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode(string)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode(String)
+  nameWithType: EncodingExtensions.HtmlEncode(string)
+  nameWithType.vb: EncodingExtensions.HtmlEncode(String)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode*
+  name: HtmlEncode
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_HtmlEncode_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.HtmlEncode
+  nameWithType: EncodingExtensions.HtmlEncode
+- uid: UtilityKit.Extensions.String.EncodingExtensions.StripHtml(System.String)
+  name: StripHtml(string)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_StripHtml_System_String_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.StripHtml(System.String)
+  name.vb: StripHtml(String)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.StripHtml(string)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.StripHtml(String)
+  nameWithType: EncodingExtensions.StripHtml(string)
+  nameWithType.vb: EncodingExtensions.StripHtml(String)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.StripHtml*
+  name: StripHtml
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_StripHtml_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.StripHtml
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.StripHtml
+  nameWithType: EncodingExtensions.StripHtml
+- uid: UtilityKit.Extensions.String.EncodingExtensions.ToBase64(System.String,System.Text.Encoding)
+  name: ToBase64(string, Encoding?)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_ToBase64_System_String_System_Text_Encoding_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.ToBase64(System.String,System.Text.Encoding)
+  name.vb: ToBase64(String, Encoding)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.ToBase64(string, System.Text.Encoding?)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.ToBase64(String, System.Text.Encoding)
+  nameWithType: EncodingExtensions.ToBase64(string, Encoding?)
+  nameWithType.vb: EncodingExtensions.ToBase64(String, Encoding)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.ToBase64*
+  name: ToBase64
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_ToBase64_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.ToBase64
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.ToBase64
+  nameWithType: EncodingExtensions.ToBase64
+- uid: UtilityKit.Extensions.String.EncodingExtensions.ToHex(System.String,System.Text.Encoding)
+  name: ToHex(string, Encoding?)
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_ToHex_System_String_System_Text_Encoding_
+  commentId: M:UtilityKit.Extensions.String.EncodingExtensions.ToHex(System.String,System.Text.Encoding)
+  name.vb: ToHex(String, Encoding)
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.ToHex(string, System.Text.Encoding?)
+  fullName.vb: UtilityKit.Extensions.String.EncodingExtensions.ToHex(String, System.Text.Encoding)
+  nameWithType: EncodingExtensions.ToHex(string, Encoding?)
+  nameWithType.vb: EncodingExtensions.ToHex(String, Encoding)
+- uid: UtilityKit.Extensions.String.EncodingExtensions.ToHex*
+  name: ToHex
+  href: api/UtilityKit.Extensions.String.EncodingExtensions.html#UtilityKit_Extensions_String_EncodingExtensions_ToHex_
+  commentId: Overload:UtilityKit.Extensions.String.EncodingExtensions.ToHex
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.EncodingExtensions.ToHex
+  nameWithType: EncodingExtensions.ToHex
+- uid: UtilityKit.Extensions.String.FormattingExtensions
+  name: FormattingExtensions
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html
+  commentId: T:UtilityKit.Extensions.String.FormattingExtensions
+  fullName: UtilityKit.Extensions.String.FormattingExtensions
+  nameWithType: FormattingExtensions
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(System.String,System.String,System.StringComparison)
+  name: EnsureEndsWith(string, string, StringComparison)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureEndsWith_System_String_System_String_System_StringComparison_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(System.String,System.String,System.StringComparison)
+  name.vb: EnsureEndsWith(String, String, StringComparison)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(string, string, System.StringComparison)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith(String, String, System.StringComparison)
+  nameWithType: FormattingExtensions.EnsureEndsWith(string, string, StringComparison)
+  nameWithType.vb: FormattingExtensions.EnsureEndsWith(String, String, StringComparison)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith*
+  name: EnsureEndsWith
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureEndsWith_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureEndsWith
+  nameWithType: FormattingExtensions.EnsureEndsWith
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(System.String,System.String,System.StringComparison)
+  name: EnsureStartsWith(string, string, StringComparison)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureStartsWith_System_String_System_String_System_StringComparison_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(System.String,System.String,System.StringComparison)
+  name.vb: EnsureStartsWith(String, String, StringComparison)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(string, string, System.StringComparison)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith(String, String, System.StringComparison)
+  nameWithType: FormattingExtensions.EnsureStartsWith(string, string, StringComparison)
+  nameWithType.vb: FormattingExtensions.EnsureStartsWith(String, String, StringComparison)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith*
+  name: EnsureStartsWith
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_EnsureStartsWith_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.EnsureStartsWith
+  nameWithType: FormattingExtensions.EnsureStartsWith
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Left(System.String,System.Int32)
+  name: Left(string, int)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Left_System_String_System_Int32_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Left(System.String,System.Int32)
+  name.vb: Left(String, Integer)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Left(string, int)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Left(String, Integer)
+  nameWithType: FormattingExtensions.Left(string, int)
+  nameWithType.vb: FormattingExtensions.Left(String, Integer)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Left*
+  name: Left
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Left_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Left
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Left
+  nameWithType: FormattingExtensions.Left
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Mask(System.String,System.Int32,System.Int32,System.Char)
+  name: Mask(string, int, int, char)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Mask_System_String_System_Int32_System_Int32_System_Char_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Mask(System.String,System.Int32,System.Int32,System.Char)
+  name.vb: Mask(String, Integer, Integer, Char)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Mask(string, int, int, char)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Mask(String, Integer, Integer, Char)
+  nameWithType: FormattingExtensions.Mask(string, int, int, char)
+  nameWithType.vb: FormattingExtensions.Mask(String, Integer, Integer, Char)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Mask*
+  name: Mask
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Mask_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Mask
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Mask
+  nameWithType: FormattingExtensions.Mask
+- uid: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(System.String)
+  name: NormalizeWhitespace(string)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_NormalizeWhitespace_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(System.String)
+  name.vb: NormalizeWhitespace(String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(string)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace(String)
+  nameWithType: FormattingExtensions.NormalizeWhitespace(string)
+  nameWithType.vb: FormattingExtensions.NormalizeWhitespace(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace*
+  name: NormalizeWhitespace
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_NormalizeWhitespace_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.NormalizeWhitespace
+  nameWithType: FormattingExtensions.NormalizeWhitespace
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(System.String)
+  name: RemoveDiacritics(string)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveDiacritics_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(System.String)
+  name.vb: RemoveDiacritics(String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(string)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics(String)
+  nameWithType: FormattingExtensions.RemoveDiacritics(string)
+  nameWithType.vb: FormattingExtensions.RemoveDiacritics(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics*
+  name: RemoveDiacritics
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveDiacritics_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveDiacritics
+  nameWithType: FormattingExtensions.RemoveDiacritics
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(System.String)
+  name: RemoveWhitespace(string)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveWhitespace_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(System.String)
+  name.vb: RemoveWhitespace(String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(string)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace(String)
+  nameWithType: FormattingExtensions.RemoveWhitespace(string)
+  nameWithType.vb: FormattingExtensions.RemoveWhitespace(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace*
+  name: RemoveWhitespace
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_RemoveWhitespace_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.RemoveWhitespace
+  nameWithType: FormattingExtensions.RemoveWhitespace
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Reverse(System.String)
+  name: Reverse(string)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Reverse_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Reverse(System.String)
+  name.vb: Reverse(String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Reverse(string)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Reverse(String)
+  nameWithType: FormattingExtensions.Reverse(string)
+  nameWithType.vb: FormattingExtensions.Reverse(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Reverse*
+  name: Reverse
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Reverse_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Reverse
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Reverse
+  nameWithType: FormattingExtensions.Reverse
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Right(System.String,System.Int32)
+  name: Right(string, int)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Right_System_String_System_Int32_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Right(System.String,System.Int32)
+  name.vb: Right(String, Integer)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Right(string, int)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Right(String, Integer)
+  nameWithType: FormattingExtensions.Right(string, int)
+  nameWithType.vb: FormattingExtensions.Right(String, Integer)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Right*
+  name: Right
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Right_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Right
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Right
+  nameWithType: FormattingExtensions.Right
+- uid: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(System.String,System.Char)
+  name: SafeFileName(string, char)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_SafeFileName_System_String_System_Char_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(System.String,System.Char)
+  name.vb: SafeFileName(String, Char)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(string, char)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName(String, Char)
+  nameWithType: FormattingExtensions.SafeFileName(string, char)
+  nameWithType.vb: FormattingExtensions.SafeFileName(String, Char)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName*
+  name: SafeFileName
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_SafeFileName_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.SafeFileName
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.SafeFileName
+  nameWithType: FormattingExtensions.SafeFileName
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(System.String,System.Text.NormalizationForm)
+  name: ToNormalized(string, NormalizationForm)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToNormalized_System_String_System_Text_NormalizationForm_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(System.String,System.Text.NormalizationForm)
+  name.vb: ToNormalized(String, NormalizationForm)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(string, System.Text.NormalizationForm)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized(String, System.Text.NormalizationForm)
+  nameWithType: FormattingExtensions.ToNormalized(string, NormalizationForm)
+  nameWithType.vb: FormattingExtensions.ToNormalized(String, NormalizationForm)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized*
+  name: ToNormalized
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToNormalized_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToNormalized
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToNormalized
+  nameWithType: FormattingExtensions.ToNormalized
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(System.String,System.Boolean)
+  name: ToSlug(string, bool)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToSlug_System_String_System_Boolean_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToSlug(System.String,System.Boolean)
+  name.vb: ToSlug(String, Boolean)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(string, bool)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToSlug(String, Boolean)
+  nameWithType: FormattingExtensions.ToSlug(string, bool)
+  nameWithType.vb: FormattingExtensions.ToSlug(String, Boolean)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToSlug*
+  name: ToSlug
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToSlug_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToSlug
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToSlug
+  nameWithType: FormattingExtensions.ToSlug
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(System.String,System.Globalization.CultureInfo)
+  name: ToTitleCase(string, CultureInfo?)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToTitleCase_System_String_System_Globalization_CultureInfo_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(System.String,System.Globalization.CultureInfo)
+  name.vb: ToTitleCase(String, CultureInfo)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(string, System.Globalization.CultureInfo?)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase(String, System.Globalization.CultureInfo)
+  nameWithType: FormattingExtensions.ToTitleCase(string, CultureInfo?)
+  nameWithType.vb: FormattingExtensions.ToTitleCase(String, CultureInfo)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase*
+  name: ToTitleCase
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_ToTitleCase_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.ToTitleCase
+  nameWithType: FormattingExtensions.ToTitleCase
+- uid: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(System.String)
+  name: TrimToNull(string?)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_TrimToNull_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(System.String)
+  name.vb: TrimToNull(String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(string?)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull(String)
+  nameWithType: FormattingExtensions.TrimToNull(string?)
+  nameWithType.vb: FormattingExtensions.TrimToNull(String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull*
+  name: TrimToNull
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_TrimToNull_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.TrimToNull
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.TrimToNull
+  nameWithType: FormattingExtensions.TrimToNull
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Truncate(System.String,System.Int32,System.String)
+  name: Truncate(string, int, string?)
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Truncate_System_String_System_Int32_System_String_
+  commentId: M:UtilityKit.Extensions.String.FormattingExtensions.Truncate(System.String,System.Int32,System.String)
+  name.vb: Truncate(String, Integer, String)
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Truncate(string, int, string?)
+  fullName.vb: UtilityKit.Extensions.String.FormattingExtensions.Truncate(String, Integer, String)
+  nameWithType: FormattingExtensions.Truncate(string, int, string?)
+  nameWithType.vb: FormattingExtensions.Truncate(String, Integer, String)
+- uid: UtilityKit.Extensions.String.FormattingExtensions.Truncate*
+  name: Truncate
+  href: api/UtilityKit.Extensions.String.FormattingExtensions.html#UtilityKit_Extensions_String_FormattingExtensions_Truncate_
+  commentId: Overload:UtilityKit.Extensions.String.FormattingExtensions.Truncate
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.FormattingExtensions.Truncate
+  nameWithType: FormattingExtensions.Truncate
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions
+  name: JsonXmlExtensions
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html
+  commentId: T:UtilityKit.Extensions.String.JsonXmlExtensions
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions
+  nameWithType: JsonXmlExtensions
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.IsJson(System.String)
+  name: IsJson(string)
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_IsJson_System_String_
+  commentId: M:UtilityKit.Extensions.String.JsonXmlExtensions.IsJson(System.String)
+  name.vb: IsJson(String)
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.IsJson(string)
+  fullName.vb: UtilityKit.Extensions.String.JsonXmlExtensions.IsJson(String)
+  nameWithType: JsonXmlExtensions.IsJson(string)
+  nameWithType.vb: JsonXmlExtensions.IsJson(String)
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.IsJson*
+  name: IsJson
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_IsJson_
+  commentId: Overload:UtilityKit.Extensions.String.JsonXmlExtensions.IsJson
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.IsJson
+  nameWithType: JsonXmlExtensions.IsJson
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.IsXml(System.String)
+  name: IsXml(string)
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_IsXml_System_String_
+  commentId: M:UtilityKit.Extensions.String.JsonXmlExtensions.IsXml(System.String)
+  name.vb: IsXml(String)
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.IsXml(string)
+  fullName.vb: UtilityKit.Extensions.String.JsonXmlExtensions.IsXml(String)
+  nameWithType: JsonXmlExtensions.IsXml(string)
+  nameWithType.vb: JsonXmlExtensions.IsXml(String)
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.IsXml*
+  name: IsXml
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_IsXml_
+  commentId: Overload:UtilityKit.Extensions.String.JsonXmlExtensions.IsXml
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.IsXml
+  nameWithType: JsonXmlExtensions.IsXml
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson(System.String)
+  name: PrettyPrintJson(string)
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_PrettyPrintJson_System_String_
+  commentId: M:UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson(System.String)
+  name.vb: PrettyPrintJson(String)
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson(string)
+  fullName.vb: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson(String)
+  nameWithType: JsonXmlExtensions.PrettyPrintJson(string)
+  nameWithType.vb: JsonXmlExtensions.PrettyPrintJson(String)
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson*
+  name: PrettyPrintJson
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_PrettyPrintJson_
+  commentId: Overload:UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintJson
+  nameWithType: JsonXmlExtensions.PrettyPrintJson
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml(System.String)
+  name: PrettyPrintXml(string)
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_PrettyPrintXml_System_String_
+  commentId: M:UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml(System.String)
+  name.vb: PrettyPrintXml(String)
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml(string)
+  fullName.vb: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml(String)
+  nameWithType: JsonXmlExtensions.PrettyPrintXml(string)
+  nameWithType.vb: JsonXmlExtensions.PrettyPrintXml(String)
+- uid: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml*
+  name: PrettyPrintXml
+  href: api/UtilityKit.Extensions.String.JsonXmlExtensions.html#UtilityKit_Extensions_String_JsonXmlExtensions_PrettyPrintXml_
+  commentId: Overload:UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.JsonXmlExtensions.PrettyPrintXml
+  nameWithType: JsonXmlExtensions.PrettyPrintXml
+- uid: UtilityKit.Extensions.String.ParsingExtensions
+  name: ParsingExtensions
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html
+  commentId: T:UtilityKit.Extensions.String.ParsingExtensions
+  fullName: UtilityKit.Extensions.String.ParsingExtensions
+  nameWithType: ParsingExtensions
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault(System.String,System.Decimal,System.Globalization.CultureInfo)
+  name: ParseDecimalOrDefault(string, decimal, CultureInfo?)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseDecimalOrDefault_System_String_System_Decimal_System_Globalization_CultureInfo_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault(System.String,System.Decimal,System.Globalization.CultureInfo)
+  name.vb: ParseDecimalOrDefault(String, Decimal, CultureInfo)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault(string, decimal, System.Globalization.CultureInfo?)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault(String, Decimal, System.Globalization.CultureInfo)
+  nameWithType: ParsingExtensions.ParseDecimalOrDefault(string, decimal, CultureInfo?)
+  nameWithType.vb: ParsingExtensions.ParseDecimalOrDefault(String, Decimal, CultureInfo)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault*
+  name: ParseDecimalOrDefault
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseDecimalOrDefault_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseDecimalOrDefault
+  nameWithType: ParsingExtensions.ParseDecimalOrDefault
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault(System.String,System.Int32)
+  name: ParseIntOrDefault(string, int)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseIntOrDefault_System_String_System_Int32_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault(System.String,System.Int32)
+  name.vb: ParseIntOrDefault(String, Integer)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault(string, int)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault(String, Integer)
+  nameWithType: ParsingExtensions.ParseIntOrDefault(string, int)
+  nameWithType.vb: ParsingExtensions.ParseIntOrDefault(String, Integer)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault*
+  name: ParseIntOrDefault
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseIntOrDefault_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseIntOrDefault
+  nameWithType: ParsingExtensions.ParseIntOrDefault
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault(System.String,System.Int64)
+  name: ParseLongOrDefault(string, long)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseLongOrDefault_System_String_System_Int64_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault(System.String,System.Int64)
+  name.vb: ParseLongOrDefault(String, Long)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault(string, long)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault(String, Long)
+  nameWithType: ParsingExtensions.ParseLongOrDefault(string, long)
+  nameWithType.vb: ParsingExtensions.ParseLongOrDefault(String, Long)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault*
+  name: ParseLongOrDefault
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ParseLongOrDefault_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ParseLongOrDefault
+  nameWithType: ParsingExtensions.ParseLongOrDefault
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp(System.String,System.String,System.Globalization.CultureInfo)
+  name: ToUnixTimestamp(string, string?, CultureInfo?)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ToUnixTimestamp_System_String_System_String_System_Globalization_CultureInfo_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp(System.String,System.String,System.Globalization.CultureInfo)
+  name.vb: ToUnixTimestamp(String, String, CultureInfo)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp(string, string?, System.Globalization.CultureInfo?)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp(String, String, System.Globalization.CultureInfo)
+  nameWithType: ParsingExtensions.ToUnixTimestamp(string, string?, CultureInfo?)
+  nameWithType.vb: ParsingExtensions.ToUnixTimestamp(String, String, CultureInfo)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp*
+  name: ToUnixTimestamp
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ToUnixTimestamp_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ToUnixTimestamp
+  nameWithType: ParsingExtensions.ToUnixTimestamp
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ToUri(System.String)
+  name: ToUri(string?)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ToUri_System_String_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.ToUri(System.String)
+  name.vb: ToUri(String)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ToUri(string?)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.ToUri(String)
+  nameWithType: ParsingExtensions.ToUri(string?)
+  nameWithType.vb: ParsingExtensions.ToUri(String)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.ToUri*
+  name: ToUri
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_ToUri_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.ToUri
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.ToUri
+  nameWithType: ParsingExtensions.ToUri
+- uid: UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime(System.String,System.DateTime@,System.String,System.Globalization.CultureInfo)
+  name: TryParseDateTime(string, out DateTime, string?, CultureInfo?)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_TryParseDateTime_System_String_System_DateTime__System_String_System_Globalization_CultureInfo_
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime(System.String,System.DateTime@,System.String,System.Globalization.CultureInfo)
+  name.vb: TryParseDateTime(String, Date, String, CultureInfo)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime(string, out System.DateTime, string?, System.Globalization.CultureInfo?)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime(String, Date, String, System.Globalization.CultureInfo)
+  nameWithType: ParsingExtensions.TryParseDateTime(string, out DateTime, string?, CultureInfo?)
+  nameWithType.vb: ParsingExtensions.TryParseDateTime(String, Date, String, CultureInfo)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime*
+  name: TryParseDateTime
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_TryParseDateTime_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.TryParseDateTime
+  nameWithType: ParsingExtensions.TryParseDateTime
+- uid: UtilityKit.Extensions.String.ParsingExtensions.TryToGuid(System.String,System.Guid@)
+  name: TryToGuid(string, out Guid)
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_TryToGuid_System_String_System_Guid__
+  commentId: M:UtilityKit.Extensions.String.ParsingExtensions.TryToGuid(System.String,System.Guid@)
+  name.vb: TryToGuid(String, Guid)
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.TryToGuid(string, out System.Guid)
+  fullName.vb: UtilityKit.Extensions.String.ParsingExtensions.TryToGuid(String, System.Guid)
+  nameWithType: ParsingExtensions.TryToGuid(string, out Guid)
+  nameWithType.vb: ParsingExtensions.TryToGuid(String, Guid)
+- uid: UtilityKit.Extensions.String.ParsingExtensions.TryToGuid*
+  name: TryToGuid
+  href: api/UtilityKit.Extensions.String.ParsingExtensions.html#UtilityKit_Extensions_String_ParsingExtensions_TryToGuid_
+  commentId: Overload:UtilityKit.Extensions.String.ParsingExtensions.TryToGuid
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ParsingExtensions.TryToGuid
+  nameWithType: ParsingExtensions.TryToGuid
+- uid: UtilityKit.Extensions.String.QueryExtensions
+  name: QueryExtensions
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html
+  commentId: T:UtilityKit.Extensions.String.QueryExtensions
+  fullName: UtilityKit.Extensions.String.QueryExtensions
+  nameWithType: QueryExtensions
+- uid: UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter(System.String,System.String,System.String)
+  name: AppendQueryParameter(string, string, string)
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_AppendQueryParameter_System_String_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter(System.String,System.String,System.String)
+  name.vb: AppendQueryParameter(String, String, String)
+  fullName: UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter(string, string, string)
+  fullName.vb: UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter(String, String, String)
+  nameWithType: QueryExtensions.AppendQueryParameter(string, string, string)
+  nameWithType.vb: QueryExtensions.AppendQueryParameter(String, String, String)
+- uid: UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter*
+  name: AppendQueryParameter
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_AppendQueryParameter_
+  commentId: Overload:UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.QueryExtensions.AppendQueryParameter
+  nameWithType: QueryExtensions.AppendQueryParameter
+- uid: UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri(System.String)
+  name: GetMimeTypeFromDataUri(string)
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_GetMimeTypeFromDataUri_System_String_
+  commentId: M:UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri(System.String)
+  name.vb: GetMimeTypeFromDataUri(String)
+  fullName: UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri(string)
+  fullName.vb: UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri(String)
+  nameWithType: QueryExtensions.GetMimeTypeFromDataUri(string)
+  nameWithType.vb: QueryExtensions.GetMimeTypeFromDataUri(String)
+- uid: UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri*
+  name: GetMimeTypeFromDataUri
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_GetMimeTypeFromDataUri_
+  commentId: Overload:UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.QueryExtensions.GetMimeTypeFromDataUri
+  nameWithType: QueryExtensions.GetMimeTypeFromDataUri
+- uid: UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter(System.String,System.String)
+  name: GetQueryParameter(string, string)
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_GetQueryParameter_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter(System.String,System.String)
+  name.vb: GetQueryParameter(String, String)
+  fullName: UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter(string, string)
+  fullName.vb: UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter(String, String)
+  nameWithType: QueryExtensions.GetQueryParameter(string, string)
+  nameWithType.vb: QueryExtensions.GetQueryParameter(String, String)
+- uid: UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter*
+  name: GetQueryParameter
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_GetQueryParameter_
+  commentId: Overload:UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.QueryExtensions.GetQueryParameter
+  nameWithType: QueryExtensions.GetQueryParameter
+- uid: UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize(System.String,System.Int32)
+  name: HumanizeByteSize(string, int)
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_HumanizeByteSize_System_String_System_Int32_
+  commentId: M:UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize(System.String,System.Int32)
+  name.vb: HumanizeByteSize(String, Integer)
+  fullName: UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize(string, int)
+  fullName.vb: UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize(String, Integer)
+  nameWithType: QueryExtensions.HumanizeByteSize(string, int)
+  nameWithType.vb: QueryExtensions.HumanizeByteSize(String, Integer)
+- uid: UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize*
+  name: HumanizeByteSize
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_HumanizeByteSize_
+  commentId: Overload:UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.QueryExtensions.HumanizeByteSize
+  nameWithType: QueryExtensions.HumanizeByteSize
+- uid: UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter(System.String,System.String)
+  name: RemoveQueryParameter(string, string)
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_RemoveQueryParameter_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter(System.String,System.String)
+  name.vb: RemoveQueryParameter(String, String)
+  fullName: UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter(string, string)
+  fullName.vb: UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter(String, String)
+  nameWithType: QueryExtensions.RemoveQueryParameter(string, string)
+  nameWithType.vb: QueryExtensions.RemoveQueryParameter(String, String)
+- uid: UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter*
+  name: RemoveQueryParameter
+  href: api/UtilityKit.Extensions.String.QueryExtensions.html#UtilityKit_Extensions_String_QueryExtensions_RemoveQueryParameter_
+  commentId: Overload:UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.QueryExtensions.RemoveQueryParameter
+  nameWithType: QueryExtensions.RemoveQueryParameter
+- uid: UtilityKit.Extensions.String.SimilarityExtensions
+  name: SimilarityExtensions
+  href: api/UtilityKit.Extensions.String.SimilarityExtensions.html
+  commentId: T:UtilityKit.Extensions.String.SimilarityExtensions
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions
+  nameWithType: SimilarityExtensions
+- uid: UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance(System.String,System.String)
+  name: LevenshteinDistance(string, string)
+  href: api/UtilityKit.Extensions.String.SimilarityExtensions.html#UtilityKit_Extensions_String_SimilarityExtensions_LevenshteinDistance_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance(System.String,System.String)
+  name.vb: LevenshteinDistance(String, String)
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance(string, string)
+  fullName.vb: UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance(String, String)
+  nameWithType: SimilarityExtensions.LevenshteinDistance(string, string)
+  nameWithType.vb: SimilarityExtensions.LevenshteinDistance(String, String)
+- uid: UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance*
+  name: LevenshteinDistance
+  href: api/UtilityKit.Extensions.String.SimilarityExtensions.html#UtilityKit_Extensions_String_SimilarityExtensions_LevenshteinDistance_
+  commentId: Overload:UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions.LevenshteinDistance
+  nameWithType: SimilarityExtensions.LevenshteinDistance
+- uid: UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore(System.String,System.String)
+  name: SimilarityScore(string, string)
+  href: api/UtilityKit.Extensions.String.SimilarityExtensions.html#UtilityKit_Extensions_String_SimilarityExtensions_SimilarityScore_System_String_System_String_
+  commentId: M:UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore(System.String,System.String)
+  name.vb: SimilarityScore(String, String)
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore(string, string)
+  fullName.vb: UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore(String, String)
+  nameWithType: SimilarityExtensions.SimilarityScore(string, string)
+  nameWithType.vb: SimilarityExtensions.SimilarityScore(String, String)
+- uid: UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore*
+  name: SimilarityScore
+  href: api/UtilityKit.Extensions.String.SimilarityExtensions.html#UtilityKit_Extensions_String_SimilarityExtensions_SimilarityScore_
+  commentId: Overload:UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.SimilarityExtensions.SimilarityScore
+  nameWithType: SimilarityExtensions.SimilarityScore
+- uid: UtilityKit.Extensions.String.ValidationExtensions
+  name: ValidationExtensions
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html
+  commentId: T:UtilityKit.Extensions.String.ValidationExtensions
+  fullName: UtilityKit.Extensions.String.ValidationExtensions
+  nameWithType: ValidationExtensions
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsAlpha(System.String)
+  name: IsAlpha(string)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsAlpha_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsAlpha(System.String)
+  name.vb: IsAlpha(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsAlpha(string)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsAlpha(String)
+  nameWithType: ValidationExtensions.IsAlpha(string)
+  nameWithType.vb: ValidationExtensions.IsAlpha(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsAlpha*
+  name: IsAlpha
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsAlpha_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsAlpha
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsAlpha
+  nameWithType: ValidationExtensions.IsAlpha
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric(System.String)
+  name: IsAlphaNumeric(string)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsAlphaNumeric_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric(System.String)
+  name.vb: IsAlphaNumeric(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric(string)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric(String)
+  nameWithType: ValidationExtensions.IsAlphaNumeric(string)
+  nameWithType.vb: ValidationExtensions.IsAlphaNumeric(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric*
+  name: IsAlphaNumeric
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsAlphaNumeric_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsAlphaNumeric
+  nameWithType: ValidationExtensions.IsAlphaNumeric
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly(System.String)
+  name: IsDigitsOnly(string)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsDigitsOnly_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly(System.String)
+  name.vb: IsDigitsOnly(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly(string)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly(String)
+  nameWithType: ValidationExtensions.IsDigitsOnly(string)
+  nameWithType.vb: ValidationExtensions.IsDigitsOnly(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly*
+  name: IsDigitsOnly
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsDigitsOnly_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsDigitsOnly
+  nameWithType: ValidationExtensions.IsDigitsOnly
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome(System.String,System.Boolean,System.Boolean)
+  name: IsPalindrome(string, bool, bool)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsPalindrome_System_String_System_Boolean_System_Boolean_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome(System.String,System.Boolean,System.Boolean)
+  name.vb: IsPalindrome(String, Boolean, Boolean)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome(string, bool, bool)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome(String, Boolean, Boolean)
+  nameWithType: ValidationExtensions.IsPalindrome(string, bool, bool)
+  nameWithType.vb: ValidationExtensions.IsPalindrome(String, Boolean, Boolean)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome*
+  name: IsPalindrome
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsPalindrome_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsPalindrome
+  nameWithType: ValidationExtensions.IsPalindrome
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail(System.String)
+  name: IsValidEmail(string?)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidEmail_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail(System.String)
+  name.vb: IsValidEmail(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail(string?)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail(String)
+  nameWithType: ValidationExtensions.IsValidEmail(string?)
+  nameWithType.vb: ValidationExtensions.IsValidEmail(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail*
+  name: IsValidEmail
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidEmail_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidEmail
+  nameWithType: ValidationExtensions.IsValidEmail
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl(System.String)
+  name: IsValidUrl(string?)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidUrl_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl(System.String)
+  name.vb: IsValidUrl(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl(string?)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl(String)
+  nameWithType: ValidationExtensions.IsValidUrl(string?)
+  nameWithType.vb: ValidationExtensions.IsValidUrl(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl*
+  name: IsValidUrl
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidUrl_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidUrl
+  nameWithType: ValidationExtensions.IsValidUrl
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid(System.String)
+  name: IsValidUuid(string)
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidUuid_System_String_
+  commentId: M:UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid(System.String)
+  name.vb: IsValidUuid(String)
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid(string)
+  fullName.vb: UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid(String)
+  nameWithType: ValidationExtensions.IsValidUuid(string)
+  nameWithType.vb: ValidationExtensions.IsValidUuid(String)
+- uid: UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid*
+  name: IsValidUuid
+  href: api/UtilityKit.Extensions.String.ValidationExtensions.html#UtilityKit_Extensions_String_ValidationExtensions_IsValidUuid_
+  commentId: Overload:UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid
+  isSpec: "True"
+  fullName: UtilityKit.Extensions.String.ValidationExtensions.IsValidUuid
+  nameWithType: ValidationExtensions.IsValidUuid
+- uid: getting-started
+  name: Getting Started
+  href: docs/getting-started.html
+- uid: index
+  name: UtilityKit
+  href: index.html
+- uid: introduction
+  name: Introduction
+  href: docs/introduction.html

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.Extensions.DateAndTime
+  commentId: N:UtilityKit.Extensions.DateAndTime
+  id: UtilityKit.Extensions.DateAndTime
+  children:
+  - UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  langs:
+  - csharp
+  - vb
+  name: UtilityKit.Extensions.DateAndTime
+  nameWithType: UtilityKit.Extensions.DateAndTime
+  fullName: UtilityKit.Extensions.DateAndTime
+  type: Namespace
+  assemblies:
+  - UtilityKit
+references:
+- uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  commentId: T:UtilityKit.Extensions.DateAndTime.FormattingExtensions
+  href: UtilityKit.Extensions.DateAndTime.FormattingExtensions.html
+  name: FormattingExtensions
+  nameWithType: FormattingExtensions
+  fullName: UtilityKit.Extensions.DateAndTime.FormattingExtensions

@@ -1,0 +1,443 @@
+### YamlMime:ManagedReference
+items:
+- uid: UtilityKit.DX.Ensure
+  commentId: T:UtilityKit.DX.Ensure
+  id: Ensure
+  parent: UtilityKit.DX
+  children:
+  - UtilityKit.DX.Ensure.That``1(``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Ensure
+  nameWithType: Ensure
+  fullName: UtilityKit.DX.Ensure
+  type: Class
+  source:
+    remote:
+      path: UtilityKit/DX/Ensure.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: Ensure
+    path: ../DX/Ensure.cs
+    startLine: 231
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.DX
+  syntax:
+    content: public static class Ensure
+    content.vb: Public Module Ensure
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UtilityKit.DX.Ensure.That``1(``0,System.String)
+  commentId: M:UtilityKit.DX.Ensure.That``1(``0,System.String)
+  id: That``1(``0,System.String)
+  parent: UtilityKit.DX.Ensure
+  langs:
+  - csharp
+  - vb
+  name: That<T>(T, string)
+  nameWithType: Ensure.That<T>(T, string)
+  fullName: UtilityKit.DX.Ensure.That<T>(T, string)
+  type: Method
+  source:
+    remote:
+      path: UtilityKit/DX/Ensure.cs
+      branch: AddAPIDoc
+      repo: https://github.com/siddiquiaslam/UtilityKit.git
+    id: That
+    path: ../DX/Ensure.cs
+    startLine: 257
+  assemblies:
+  - UtilityKit
+  namespace: UtilityKit.DX
+  summary: Starts a fluent validation chain for the given value.
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Simple null check
+
+    var result = Ensure.That(customer).NotNull().Result;
+
+    if (!result.IsValid) Console.WriteLine(result.Message);
+
+
+    // Chained checks
+
+    var r2 = Ensure.That(orderId)
+        .NotNull()
+        .NotEmpty("Order id required")
+        .Result;
+
+    // Using a custom predicate
+
+    var r3 = Ensure.That(age).InRange(18, 65).Result;
+
+    if (!r3.IsValid) Console.WriteLine(r3.Message);</code></pre>
+  syntax:
+    content: public static EnsureBuilder<T> That<T>(T value, string paramName = "")
+    parameters:
+    - id: value
+      type: '{T}'
+      description: The value to validate.
+    - id: paramName
+      type: System.String
+      description: Automatically inferred parameter name.
+    typeParameters:
+    - id: T
+      description: The type of the value being validated.
+    return:
+      type: UtilityKit.DX.EnsureBuilder{{T}}
+      description: An <xref href="UtilityKit.DX.EnsureBuilder%601" data-throw-if-not-resolved="false"></xref> for chaining validations.
+    content.vb: Public Shared Function That(Of T)(value As T, paramName As String = "") As EnsureBuilder(Of T)
+  overload: UtilityKit.DX.Ensure.That*
+  nameWithType.vb: Ensure.That(Of T)(T, String)
+  fullName.vb: UtilityKit.DX.Ensure.That(Of T)(T, String)
+  name.vb: That(Of T)(T, String)
+references:
+- uid: UtilityKit.DX
+  commentId: N:UtilityKit.DX
+  href: UtilityKit.html
+  name: UtilityKit.DX
+  nameWithType: UtilityKit.DX
+  fullName: UtilityKit.DX
+  spec.csharp:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.DX
+    name: DX
+    href: UtilityKit.DX.html
+  spec.vb:
+  - uid: UtilityKit
+    name: UtilityKit
+    href: UtilityKit.html
+  - name: .
+  - uid: UtilityKit.DX
+    name: DX
+    href: UtilityKit.DX.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UtilityKit.DX.EnsureBuilder`1
+  commentId: T:UtilityKit.DX.EnsureBuilder`1
+  parent: UtilityKit.DX
+  href: UtilityKit.DX.EnsureBuilder-1.html
+  name: EnsureBuilder<T>
+  nameWithType: EnsureBuilder<T>
+  fullName: UtilityKit.DX.EnsureBuilder<T>
+  nameWithType.vb: EnsureBuilder(Of T)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T)
+  name.vb: EnsureBuilder(Of T)
+  spec.csharp:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UtilityKit.DX.Ensure.That*
+  commentId: Overload:UtilityKit.DX.Ensure.That
+  href: UtilityKit.DX.Ensure.html#UtilityKit_DX_Ensure_That__1___0_System_String_
+  name: That
+  nameWithType: Ensure.That
+  fullName: UtilityKit.DX.Ensure.That
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UtilityKit.DX.EnsureBuilder{{T}}
+  commentId: T:UtilityKit.DX.EnsureBuilder{``0}
+  parent: UtilityKit.DX
+  definition: UtilityKit.DX.EnsureBuilder`1
+  href: UtilityKit.DX.EnsureBuilder-1.html
+  name: EnsureBuilder<T>
+  nameWithType: EnsureBuilder<T>
+  fullName: UtilityKit.DX.EnsureBuilder<T>
+  nameWithType.vb: EnsureBuilder(Of T)
+  fullName.vb: UtilityKit.DX.EnsureBuilder(Of T)
+  name.vb: EnsureBuilder(Of T)
+  spec.csharp:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder
+    href: UtilityKit.DX.EnsureBuilder-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

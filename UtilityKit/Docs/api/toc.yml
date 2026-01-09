@@ -1,0 +1,61 @@
+### YamlMime:TableOfContent
+items:
+- uid: UtilityKit.Crypto
+  name: UtilityKit.Crypto
+  type: Namespace
+  items:
+  - uid: UtilityKit.Crypto.AesEncryptionService
+    name: AesEncryptionService
+    type: Class
+  - uid: UtilityKit.Crypto.IEncryptionService
+    name: IEncryptionService
+    type: Interface
+- uid: UtilityKit.DX
+  name: UtilityKit.DX
+  type: Namespace
+  items:
+  - uid: UtilityKit.DX.Ensure
+    name: Ensure
+    type: Class
+  - uid: UtilityKit.DX.EnsureBuilder`1
+    name: EnsureBuilder<T>
+    type: Class
+  - uid: UtilityKit.DX.EnsureResult
+    name: EnsureResult
+    type: Class
+- uid: UtilityKit.Extensions.DateAndTime
+  name: UtilityKit.Extensions.DateAndTime
+  type: Namespace
+  items:
+  - uid: UtilityKit.Extensions.DateAndTime.FormattingExtensions
+    name: FormattingExtensions
+    type: Class
+- uid: UtilityKit.Extensions.String
+  name: UtilityKit.Extensions.String
+  type: Namespace
+  items:
+  - uid: UtilityKit.Extensions.String.CollectionExtensions
+    name: CollectionExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.EncodingExtensions
+    name: EncodingExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.FormattingExtensions
+    name: FormattingExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.JsonXmlExtensions
+    name: JsonXmlExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.ParsingExtensions
+    name: ParsingExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.QueryExtensions
+    name: QueryExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.SimilarityExtensions
+    name: SimilarityExtensions
+    type: Class
+  - uid: UtilityKit.Extensions.String.ValidationExtensions
+    name: ValidationExtensions
+    type: Class
+memberLayout: SamePage
